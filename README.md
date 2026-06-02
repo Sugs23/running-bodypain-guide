@@ -1,16 +1,19 @@
-# React + Vite
+# Runner Body Pain Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive 3D anatomy web app for marathon runners. Connects to Strava 
+to personalise injury risk predictions based on your actual training data.
 
-Currently, two official plugins are available:
+## What it does
+- 3D interactive body model — click any zone to explore injury risk
+- Connects to your Strava account to analyse last 90 days of runs
+- Personalised risk engine across 25+ muscle groups
+- Severity-based guidance: causes, short-term relief, prevention
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Built with
+React · Three.js · Vercel · Strava OAuth API
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## About
+Personal project built to solve a real problem during marathon training.
+Designed and shipped end-to-end — product decisions, data architecture,
+risk engine logic, UX and deployment all by me.
+Built using AI-assisted development (Claude by Anthropic).
