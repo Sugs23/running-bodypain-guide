@@ -1,0 +1,88 @@
+{
+  "id": "piriformis",
+  "zone": "hip",
+  "display_name": "Piriformis",
+  "subtitle": "Deep hip pain, sometimes mimicking sciatica",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 60,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Piriformis tightness common in runners with weak glutes and high mileage"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Deep ache in the buttock, sometimes into the back of the thigh",
+      "can_run": true,
+      "can_run_note": "Yes — stretch thoroughly before and after",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Piriformis overuse compensating for weak glute max and medius",
+        "Prolonged sitting compressing the piriformis against the sciatic nerve",
+        "Excessive hip internal rotation during running stride"
+      ],
+      "relief": [
+        "Figure-4 stretch: cross ankle over opposite knee, press knee away, hold 90s",
+        "Pigeon pose on the floor 2 min each side",
+        "Deep tissue massage with a ball on the buttock",
+        "Heat before stretching to soften the muscle"
+      ],
+      "prevention": [
+        "Glute strengthening to reduce piriformis overload",
+        "Avoid prolonged sitting — stand or walk every 45 minutes",
+        "Hip external rotator stretching as part of cool-down",
+        "Reduce hip internal rotation in gait if identified"
+      ]
+    },
+    "moderate": {
+      "description": "Persistent deep buttock pain, shooting sensation down the back of the thigh",
+      "can_run": "modified",
+      "can_run_note": "Easy flat runs only — stop if leg symptoms develop",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Piriformis muscle impinging on the sciatic nerve — piriformis syndrome",
+        "Trigger points in the piriformis referring pain into the buttock and thigh",
+        "Hip rotator tightness from sustained mileage without adequate mobility work"
+      ],
+      "relief": [
+        "Daily piriformis stretching — minimum 3 × 2 min per side",
+        "Reduce mileage by 40% for 1 week",
+        "Tennis ball deep tissue release on the buttock",
+        "Anti-inflammatory medication for 5 days"
+      ],
+      "prevention": [
+        "Glute activation before every run",
+        "Regular deep hip stretching programme",
+        "Dry needling to piriformis trigger points can be effective"
+      ]
+    },
+    "severe": {
+      "description": "Constant pain into the buttock and leg, numbness or tingling down the leg",
+      "can_run": false,
+      "can_run_note": "Do not run — possible sciatic nerve irritation",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Significant piriformis syndrome with sciatic nerve compression",
+        "Lumbar spine involvement needs to be ruled out",
+        "Possible nerve sensitisation requiring specific management"
+      ],
+      "relief": [
+        "Complete rest from running",
+        "Physiotherapy assessment to differentiate piriformis syndrome from lumbar sciatica",
+        "Neural mobilisation techniques under physio guidance",
+        "Imaging if symptoms are severe or unresponsive"
+      ],
+      "prevention": [
+        "Treat root cause — differentiate lumbar vs piriformis before returning",
+        "Progressive return supervised by physiotherapist"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Numbness or tingling down the leg to the foot",
+    "Symptoms worse with sitting for more than 20 minutes",
+    "Pain in both buttocks simultaneously",
+    "No improvement after 1 week of stretching"
+  ]
+}

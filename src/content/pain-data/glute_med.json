@@ -1,0 +1,88 @@
+{
+  "id": "glute_med",
+  "zone": "hip",
+  "display_name": "Gluteus medius",
+  "subtitle": "Hip abductor — the most undertrained running muscle",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "long_run_km_threshold": 22,
+    "risk_note": "Glute med weakness is the root cause of IT band, knee and lower back issues"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Outer hip ache during or after runs, Trendelenburg gait on video",
+      "can_run": true,
+      "can_run_note": "Yes — add glute med activation before every run",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Glute medius weakness allowing the hip to drop on the swing leg side",
+        "Prolonged sitting switching off the abductors",
+        "Mileage increase outpacing the strength base"
+      ],
+      "relief": [
+        "Side-lying clamshells 3 × 20 each side",
+        "Lateral band walks 3 × 15 steps each direction",
+        "Hip hitch exercise standing on a step",
+        "Ice outer hip after runs if tender"
+      ],
+      "prevention": [
+        "Clamshells, lateral walks and single-leg squats 3× per week",
+        "Single-leg balance 60s per side daily",
+        "Record yourself running from behind — check for hip drop",
+        "Strengthen before increasing mileage"
+      ]
+    },
+    "moderate": {
+      "description": "Lateral hip pain during runs, hip drops visibly on video",
+      "can_run": "modified",
+      "can_run_note": "Short runs only — prioritise strength work this week",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Gluteal tendinopathy — compressive load on the tendon insertion at the greater trochanter",
+        "Hip abductor strength insufficient for current mileage",
+        "Cross-legged sitting and hip adduction compressing the tendon"
+      ],
+      "relief": [
+        "Avoid crossing legs and deep hip stretches — these compress the tendon",
+        "Isometric side-lying hip abduction holds 45s × 5 for pain relief",
+        "Reduce mileage by 40% for 2 weeks",
+        "Sleep with a pillow between knees"
+      ],
+      "prevention": [
+        "Heavy slow resistance hip abduction — build load progressively",
+        "Avoid adducted postures — sitting cross-legged, standing with weight on one hip",
+        "Single-leg squat programme for long-term resilience"
+      ]
+    },
+    "severe": {
+      "description": "Constant lateral hip pain, pain lying on the hip, cannot run",
+      "can_run": false,
+      "can_run_note": "Do not run — gluteal tendinopathy needs load management",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Significant gluteal tendinopathy requiring structured rehabilitation",
+        "Possible trochanteric bursitis needing anti-inflammatory treatment",
+        "Chronic tendon degeneration from sustained overload"
+      ],
+      "relief": [
+        "Physiotherapy assessment for tendon loading programme",
+        "Avoid all hip adduction and stretch positions",
+        "Corticosteroid injection for bursitis if confirmed",
+        "PRP injection for recalcitrant tendinopathy"
+      ],
+      "prevention": [
+        "8–12 week heavy slow resistance programme before return to running",
+        "Running biomechanics assessment — Trendelenburg correction"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Pain lying on the affected side at night",
+    "Pain at rest that does not ease",
+    "No improvement after 2 weeks of strengthening",
+    "Visible hip drop when walking"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "lower_leg_general",
+  "zone": "lower_leg",
+  "display_name": "Lower leg pain (general)",
+  "subtitle": "Shin or calf — location not pinpointed",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "weekly_increase_threshold": 0.12,
+    "risk_note": "Lower leg pain is often the first warning sign of a mileage spike"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "General lower leg aching or tightness after runs",
+      "can_run": true,
+      "can_run_note": "Yes — try to identify whether it is shin or calf",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "General lower leg fatigue from accumulated training load",
+        "Multiple structures under stress from mileage increase",
+        "Poor running footwear or surface change"
+      ],
+      "relief": [
+        "Ice lower leg after every run",
+        "Compression socks during the day",
+        "Calf stretching — both straight and bent knee versions",
+        "Foam roll entire lower leg"
+      ],
+      "prevention": [
+        "Use this app to identify shin vs calf for specific advice",
+        "10% mileage increase rule",
+        "Replace shoes every 600–800 km"
+      ]
+    },
+    "moderate": {
+      "description": "Lower leg pain affecting your running",
+      "can_run": "modified",
+      "can_run_note": "Easy runs on soft surfaces only",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Training load exceeding tissue tolerance",
+        "Possible early stress reaction in the tibia"
+      ],
+      "relief": [
+        "Reduce mileage by 50% and run only on soft surfaces",
+        "Identify specific location — use the app to narrow down"
+      ],
+      "prevention": [
+        "Address root cause once identified",
+        "Rest week every 4 weeks"
+      ]
+    },
+    "severe": {
+      "description": "Significant lower leg pain limiting walking",
+      "can_run": false,
+      "can_run_note": "Do not run — possible stress fracture",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Possible tibial or fibular stress fracture requiring imaging",
+        "Compartment syndrome",
+        "Significant muscle or tendon injury"
+      ],
+      "relief": [
+        "Rest and see a physiotherapist or GP urgently",
+        "Imaging to rule out stress fracture"
+      ],
+      "prevention": [
+        "Return to running only with clear diagnosis and structured plan"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "A specific very tender spot on the bone",
+    "Pain with walking",
+    "Swelling in the lower leg",
+    "No improvement after 5 days of rest"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "achilles",
+  "zone": "ankle",
+  "display_name": "Achilles tendinopathy",
+  "subtitle": "Stiffness and pain at the back of the ankle",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Risk rises sharply with consecutive running days and speed work"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Stiffness in the morning, eases after 10 min of movement",
+      "can_run": true,
+      "can_run_note": "Yes — no speed work, avoid hills",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Repetitive load causing collagen fibre disruption in the tendon",
+        "Tight calves increasing tension on the Achilles insertion",
+        "Too much speed work or hill running too soon"
+      ],
+      "relief": [
+        "Eccentric heel drops on a step — 3 × 15 twice daily",
+        "Ice after runs for 15 min",
+        "Heel lift insole to reduce tendon load during recovery",
+        "Gentle calf massage with a foam roller"
+      ],
+      "prevention": [
+        "Never stretch a painful Achilles — load it eccentrically instead",
+        "Build speed work gradually — no more than one session per week",
+        "Avoid sudden increase in hill running",
+        "Warm up thoroughly before any fast running"
+      ]
+    },
+    "moderate": {
+      "description": "Pain during runs that does not fully ease, tender to squeeze",
+      "can_run": "modified",
+      "can_run_note": "Easy flat runs only — stop if pain exceeds 4/10",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Tendon load exceeding its repair capacity consistently",
+        "Reactive tendinopathy — tendon is swollen and irritable",
+        "Calf weakness causing tendon to absorb excess force"
+      ],
+      "relief": [
+        "Reduce mileage by 50% for 2 weeks",
+        "Isometric calf holds — stand on toes, hold 45s × 5 for pain relief",
+        "Heel raise in all footwear temporarily",
+        "Avoid barefoot walking and flat shoes"
+      ],
+      "prevention": [
+        "Eccentric and heavy slow resistance calf programme",
+        "Minimum 48h between hard sessions",
+        "Address hip and glute weakness — reduces Achilles load",
+        "Monitor training load spikes using the 10% rule"
+      ]
+    },
+    "severe": {
+      "description": "Pain at rest, visible swelling, cannot complete a run",
+      "can_run": false,
+      "can_run_note": "Do not run — risk of rupture if ignored",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Degenerative tendinopathy with significant structural change",
+        "Possible partial tear — requires imaging to assess",
+        "Chronic overload without adequate rehabilitation"
+      ],
+      "relief": [
+        "Complete rest from running for at least 4 weeks",
+        "Physiotherapy assessment urgently — especially to rule out tear",
+        "Heavy slow resistance programme under physio guidance",
+        "PRP injection may be considered for chronic cases"
+      ],
+      "prevention": [
+        "12-week structured tendon rehab before returning to running",
+        "Never return to speed work until pain-free at easy pace for 4 weeks",
+        "Gait analysis to identify loading pattern"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "A sudden sharp pain during a run — possible rupture",
+    "Visible lump or thickening on the tendon",
+    "No improvement after 2 weeks of eccentric loading"
+  ]
+}

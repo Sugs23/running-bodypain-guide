@@ -1,0 +1,88 @@
+{
+  "id": "peroneal",
+  "zone": "lower_leg",
+  "display_name": "Outer lower leg (peroneal)",
+  "subtitle": "Lateral shin and outer ankle tendon",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Peroneal issues more common on trail runs and cambered roads"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Outer lower leg tightness or ache after runs on uneven terrain",
+      "can_run": true,
+      "can_run_note": "Yes — stick to flat even surfaces temporarily",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Peroneal muscles working harder to stabilise the ankle on uneven ground",
+        "Lateral ankle instability from old sprains increasing peroneal demand",
+        "Supinated foot strike loading the outer foot and lower leg"
+      ],
+      "relief": [
+        "Outer lower leg massage with a foam roller or ball",
+        "Ankle circles and eversion exercises",
+        "Ice outer lower leg after trail runs",
+        "Single-leg balance to improve ankle stability"
+      ],
+      "prevention": [
+        "Ankle stability exercises: single-leg balance progression",
+        "Peroneal strengthening: resisted ankle eversion with band",
+        "Avoid heavily cambered roads",
+        "Trail shoes with lateral support"
+      ]
+    },
+    "moderate": {
+      "description": "Outer lower leg pain during runs, snapping sensation around ankle",
+      "can_run": "modified",
+      "can_run_note": "Flat road running only — no trail or cambered surfaces",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Peroneal tendinopathy from repetitive lateral load",
+        "Peroneal tendon subluxation — snapping or popping around the outer ankle",
+        "Chronic lateral ankle instability increasing peroneal stress"
+      ],
+      "relief": [
+        "Reduce mileage by 40% for 2 weeks",
+        "Eccentric peroneal loading: resisted ankle eversion",
+        "Ankle brace or strapping for support",
+        "Anti-inflammatory medication"
+      ],
+      "prevention": [
+        "Peroneal tendon strengthening programme",
+        "Proprioception training on unstable surfaces",
+        "Address ankle instability before increasing trail mileage"
+      ]
+    },
+    "severe": {
+      "description": "Outer ankle and lower leg pain, swelling, snapping or giving way",
+      "can_run": false,
+      "can_run_note": "Do not run — peroneal tendon can dislocate or tear",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Peroneal tendon subluxation or dislocation requiring imaging",
+        "Peroneal tendon tear at the superior retinaculum",
+        "Chronic lateral ankle instability requiring surgical consideration"
+      ],
+      "relief": [
+        "Complete rest and physiotherapy assessment urgently",
+        "MRI or ultrasound to assess tendon",
+        "Immobilisation brace if subluxation confirmed",
+        "Orthopaedic referral for recurrent dislocation"
+      ],
+      "prevention": [
+        "Full ankle rehabilitation before return to trail running",
+        "Possible surgical repair if conservative management fails"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Snapping or popping around the outer ankle",
+    "Swelling on the outer ankle not from a sprain",
+    "Outer lower leg pain at rest",
+    "No improvement after 2 weeks"
+  ]
+}

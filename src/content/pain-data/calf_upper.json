@@ -1,0 +1,88 @@
+{
+  "id": "calf_upper",
+  "zone": "lower_leg",
+  "display_name": "Upper calf (gastrocnemius)",
+  "subtitle": "The bulky calf muscle — prone to strains",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "long_run_km_threshold": 24,
+    "risk_note": "Gastrocnemius strains common when returning to running after rest periods"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Tightness or ache in the upper calf, eases after warm-up",
+      "can_run": true,
+      "can_run_note": "Yes — warm up thoroughly and avoid speed work",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Gastrocnemius tightness from sustained plantar flexion effort",
+        "Inadequate warm-up before faster running",
+        "Sudden mileage or pace increase"
+      ],
+      "relief": [
+        "Standing calf stretch: wall lean with straight knee 60s each side",
+        "Foam roll upper calf slowly",
+        "Heat before running, ice after",
+        "Easy walking or cycling to maintain blood flow"
+      ],
+      "prevention": [
+        "Eccentric calf raises on a step 3 × 15 daily",
+        "Dynamic calf warm-up before all runs",
+        "Gradual pace and mileage increases"
+      ]
+    },
+    "moderate": {
+      "description": "Sharp pulling or tightening in upper calf mid-run",
+      "can_run": "modified",
+      "can_run_note": "Easy pace only — stop immediately if sharp pain returns",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Partial gastrocnemius strain — micro-tearing in the muscle belly",
+        "Tennis leg: medial gastrocnemius tear at the musculotendinous junction",
+        "Dehydration reducing muscle extensibility"
+      ],
+      "relief": [
+        "RICE for 48 hours if acute strain",
+        "Heel raise insole to reduce calf loading temporarily",
+        "Reduce mileage by 50% for 1 week",
+        "Anti-inflammatory medication for 5 days"
+      ],
+      "prevention": [
+        "Stay well hydrated — dehydration predisposes to calf strains",
+        "Never increase pace without a proper warm-up",
+        "Calf strengthening as ongoing maintenance"
+      ]
+    },
+    "severe": {
+      "description": "Acute pop in the calf, immediate severe pain, unable to run",
+      "can_run": false,
+      "can_run_note": "Do not run — possible grade 2 or 3 tear",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Grade 2 or 3 gastrocnemius tear — common in athletes over 30",
+        "Tennis leg: complete medial head tear",
+        "DVT must be ruled out if significant calf swelling develops"
+      ],
+      "relief": [
+        "Ice and compression immediately — elevate leg",
+        "Crutches if unable to weight-bear",
+        "Physiotherapy within 48 hours",
+        "Ultrasound to grade the injury",
+        "See GP urgently if significant swelling — rule out DVT"
+      ],
+      "prevention": [
+        "6–12 week return-to-run programme depending on grade",
+        "Progressive calf loading before return to speed work"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "A pop or snap was felt at the time of injury",
+    "Significant bruising tracking down to the ankle",
+    "Calf swelling that does not reduce with elevation — rule out DVT",
+    "Unable to stand on tiptoe"
+  ]
+}

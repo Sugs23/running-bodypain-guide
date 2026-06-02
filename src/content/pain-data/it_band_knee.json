@@ -1,0 +1,89 @@
+{
+  "id": "it_band_knee",
+  "zone": "knee",
+  "display_name": "IT band syndrome",
+  "subtitle": "Sharp outer knee pain, especially downhill",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 60,
+    "long_run_km_threshold": 24,
+    "risk_note": "Typically appears at a consistent point in long runs"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Outer knee tightness in the last few km of a run",
+      "can_run": true,
+      "can_run_note": "Yes — flat routes, stop if sharp pain develops",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "IT band friction over the lateral femoral condyle at the knee",
+        "Weak glute medius causing inward knee collapse",
+        "Too much downhill running or cambered road running"
+      ],
+      "relief": [
+        "Foam roll TFL and outer quad — not the IT band itself",
+        "Figure-4 stretch (piriformis) 90s each side",
+        "Ice outer knee for 15 min after runs",
+        "Reduce long run distance by 30% temporarily"
+      ],
+      "prevention": [
+        "Clamshells and lateral band walks — glute medius is the key",
+        "Avoid sudden mileage increases",
+        "Alternate road camber on out-and-back routes",
+        "Single-leg squats for hip stability"
+      ]
+    },
+    "moderate": {
+      "description": "Sharp lateral knee pain that forces you to stop mid-run",
+      "can_run": "modified",
+      "can_run_note": "Short easy runs only — stop the moment sharp pain starts",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Sustained IT band compression causing local bursa inflammation",
+        "Chronic glute weakness not addressed early enough",
+        "High weekly mileage without adequate hip strength base"
+      ],
+      "relief": [
+        "Rest 5–7 days from running completely",
+        "Daily hip strengthening: glute bridges, clamshells, monster walks",
+        "Deep tissue massage to TFL — not the knee area",
+        "Anti-inflammatory medication for 5 days"
+      ],
+      "prevention": [
+        "Hip abductor strength programme — 3× per week minimum",
+        "Reduce downhill volume to under 10% of total running",
+        "Check running cadence — low cadence increases IT band stress",
+        "Strengthen hip external rotators"
+      ]
+    },
+    "severe": {
+      "description": "Pain within the first km of any run, pain walking stairs",
+      "can_run": false,
+      "can_run_note": "No running — cycling is fine if pain-free",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Chronic IT band compression with significant bursal inflammation",
+        "Underlying biomechanical fault requiring professional assessment",
+        "Possible lateral knee structure involvement"
+      ],
+      "relief": [
+        "Complete running rest for 3–4 weeks",
+        "Physiotherapy for manual therapy and targeted rehab",
+        "Corticosteroid injection may be considered for bursal inflammation",
+        "Gait retraining under supervision"
+      ],
+      "prevention": [
+        "8–12 week structured hip strengthening before return to running",
+        "Gradual return starting on treadmill with slight incline to reduce IT band tension",
+        "Gait analysis to identify and correct hip drop pattern"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Pain starts within the first km of running",
+    "Pain present when walking or climbing stairs",
+    "No improvement after 2 weeks of rest and hip strengthening"
+  ]
+}

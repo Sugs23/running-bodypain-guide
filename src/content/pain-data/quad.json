@@ -1,0 +1,88 @@
+{
+  "id": "quad",
+  "zone": "thigh",
+  "display_name": "Quadriceps",
+  "subtitle": "Front of thigh — heavy after downhills and long runs",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 60,
+    "long_run_km_threshold": 26,
+    "risk_note": "Quad soreness peaks 24–48h after long runs with significant downhill"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "DOMS in the quads 1–2 days after a long or hilly run",
+      "can_run": true,
+      "can_run_note": "Yes — easy pace only until soreness resolves",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Eccentric muscle damage from downhill running — quads brake at every step",
+        "Delayed onset muscle soreness from long run volume",
+        "VMO fatigue from sustained knee flexion under load"
+      ],
+      "relief": [
+        "Easy walking or light cycling to promote blood flow",
+        "Foam roll quads slowly — pause on tender spots",
+        "Cold water immersion or ice bath within 2 hours of run",
+        "Protein intake within 30 min of finishing to aid repair"
+      ],
+      "prevention": [
+        "Gradual exposure to downhill running — introduce 10% grade at a time",
+        "Eccentric quad exercises: slow step-downs 3 × 15 each leg",
+        "Strength training: leg press and split squats weekly",
+        "Nutrition: carbohydrate fuelling during runs over 90 min"
+      ]
+    },
+    "moderate": {
+      "description": "Quad pain during runs, weakness on stairs, pain to touch",
+      "can_run": "modified",
+      "can_run_note": "Flat easy runs only — no downhills or speed work",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Rectus femoris strain — the only quad muscle that crosses the hip",
+        "VMO tendinopathy from repetitive loading",
+        "Quad muscle tear from sudden acceleration or sprint"
+      ],
+      "relief": [
+        "RICE for first 48 hours if acute strain",
+        "Isometric quad sets: tighten quad with leg straight, hold 10s × 10",
+        "Reduce mileage by 50% for 1 week",
+        "Anti-inflammatory medication for 5 days"
+      ],
+      "prevention": [
+        "Warm up thoroughly before any speed work",
+        "Never sprint from cold — build pace gradually",
+        "Strength work: terminal knee extensions and leg press"
+      ]
+    },
+    "severe": {
+      "description": "Acute sharp pain, swelling, cannot straighten leg against resistance",
+      "can_run": false,
+      "can_run_note": "Do not run — possible significant muscle tear",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Grade 2 or 3 rectus femoris tear requiring imaging",
+        "Significant quad strain with haematoma formation",
+        "Avulsion at the AIIS in athletes under 25"
+      ],
+      "relief": [
+        "Ice and compression immediately",
+        "Crutches if unable to weight-bear",
+        "Physiotherapy assessment within 48 hours",
+        "Ultrasound or MRI to grade the injury"
+      ],
+      "prevention": [
+        "Progressive return to running over 6–12 weeks depending on grade",
+        "Full strength restoration before return to speed work"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Visible swelling or bruising on the thigh",
+    "Cannot fully extend the knee against gravity",
+    "A pop or snap was felt during injury",
+    "Pain not improving after 5 days of rest"
+  ]
+}

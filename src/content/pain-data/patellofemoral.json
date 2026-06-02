@@ -1,0 +1,89 @@
+{
+  "id": "patellofemoral",
+  "zone": "knee",
+  "display_name": "Runner's knee (PFPS)",
+  "subtitle": "Kneecap pain, especially on downhills",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 65,
+    "long_run_km_threshold": 26,
+    "risk_note": "Downhill running increases patella load 4–8×"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Dull ache around kneecap during or after runs",
+      "can_run": true,
+      "can_run_note": "Yes — avoid downhills, shorten stride",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Kneecap tracking slightly off-centre due to quad imbalance",
+        "Weak VMO (inner quad) allowing lateral pull on patella",
+        "Foot pronation misaligning the entire kinetic chain"
+      ],
+      "relief": [
+        "Ice kneecap area for 15 min after runs",
+        "KT tape patella taping for run support",
+        "Straight leg raises to strengthen VMO without knee load",
+        "Ibuprofen gel applied topically"
+      ],
+      "prevention": [
+        "Step-ups and split squats to build VMO and glutes",
+        "Check for overpronation — stability shoes or orthotics",
+        "Increase cadence by 5–10% to reduce knee stress",
+        "Reduce downhill running volume"
+      ]
+    },
+    "moderate": {
+      "description": "Pain during runs that worsens going downhill or after sitting",
+      "can_run": "modified",
+      "can_run_note": "Flat routes only, reduce pace, stop if pain worsens",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Sustained cartilage irritation under the kneecap",
+        "Hip weakness causing inward knee collapse on landing",
+        "Training load exceeding tissue recovery capacity"
+      ],
+      "relief": [
+        "RICE protocol after every run",
+        "Patella mobilisation exercises",
+        "Reduce mileage by 50% for 2 weeks",
+        "Focus on glute and hip strengthening daily"
+      ],
+      "prevention": [
+        "Single-leg squats — build to 3 × 15 each leg",
+        "Hip abductor strengthening: clamshells and lateral band walks",
+        "Gait analysis to identify lateral loading pattern",
+        "Build downhill volume gradually — max 10% grade initially"
+      ]
+    },
+    "severe": {
+      "description": "Constant pain, swelling, pain climbing stairs",
+      "can_run": false,
+      "can_run_note": "Do not run — swimming or upper body only",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Significant cartilage irritation or early chondromalacia",
+        "Chronic malalignment needing professional assessment",
+        "Possible synovial inflammation in the knee joint"
+      ],
+      "relief": [
+        "Complete running rest for 3–4 weeks minimum",
+        "Physiotherapy for manual therapy and tailored rehab",
+        "Consider imaging if no improvement after 4 weeks",
+        "Anti-inflammatory medication under medical guidance"
+      ],
+      "prevention": [
+        "Structured return-to-run programme via physio",
+        "Correct underlying hip and glute weakness before returning",
+        "Gait retraining if biomechanical fault identified"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Swelling visible around the knee",
+    "Pain at rest or at night",
+    "No improvement after 3 weeks of self-management"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "glute_max",
+  "zone": "hip",
+  "display_name": "Gluteus maximus",
+  "subtitle": "Main power muscle — aches from long efforts",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 65,
+    "long_run_km_threshold": 26,
+    "risk_note": "Glute max fatigue is a primary cause of form breakdown late in long runs"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Deep glute soreness after long runs or hill sessions",
+      "can_run": true,
+      "can_run_note": "Yes — keep effort easy for 48 hours after hard sessions",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Eccentric loading during downhill running causing delayed onset muscle soreness",
+        "Glute max underactivation shifting propulsion load to hamstrings and lower back",
+        "High volume weeks without adequate strength work to support the load"
+      ],
+      "relief": [
+        "Foam roll glutes and piriformis — 2 min each side",
+        "Figure-4 stretch lying on back 60s each side",
+        "Easy walking or cycling to flush out soreness",
+        "Cold water immersion or contrast shower post long run"
+      ],
+      "prevention": [
+        "Glute bridges progressing to single-leg bridges 3× per week",
+        "Hip thrusts with load — build to bodyweight × 20 reps",
+        "Activation drills before runs: banded clamshells and glute bridges",
+        "Reduce downhill pace to maintain glute engagement"
+      ]
+    },
+    "moderate": {
+      "description": "Weakness or pain limiting push-off, limping after long runs",
+      "can_run": "modified",
+      "can_run_note": "Easy flat runs only — no hills or speed work",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Glute max strain from sudden effort — sprint finish or steep hill",
+        "Proximal hamstring involvement at the ischial tuberosity",
+        "Gluteal tendinopathy from sustained compressive loading"
+      ],
+      "relief": [
+        "Rest 3–5 days from hard efforts",
+        "Ice or heat depending on whether acute or chronic",
+        "Isometric glute squeezes — 10s holds × 10 for tendon pain relief",
+        "Reduce sitting on hard surfaces — offloads gluteal tendons"
+      ],
+      "prevention": [
+        "Progressive heavy glute loading — Romanian deadlifts and hip thrusts",
+        "Avoid sitting cross-legged or on hard surfaces during recovery",
+        "Eccentric single-leg exercises to build tendon resilience"
+      ]
+    },
+    "severe": {
+      "description": "Acute pain with any push-off, cannot complete a run",
+      "can_run": false,
+      "can_run_note": "Do not run — rest and assess",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Possible grade 2 glute muscle strain",
+        "Gluteal tendon tear requiring imaging",
+        "Ischial bursitis or avulsion at the tendon insertion"
+      ],
+      "relief": [
+        "Complete rest for 1–2 weeks",
+        "Physiotherapy assessment for grading and rehab plan",
+        "Imaging if acute pop was felt during injury",
+        "Anti-inflammatory medication"
+      ],
+      "prevention": [
+        "12-week return-to-run programme after grade 2 strain",
+        "Progressive loading of gluteal tendon before return to speed work"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "A pop or snap was felt at the time of injury",
+    "Bruising tracking down the back of the thigh",
+    "Cannot walk without significant limp",
+    "No improvement after 5 days of rest"
+  ]
+}

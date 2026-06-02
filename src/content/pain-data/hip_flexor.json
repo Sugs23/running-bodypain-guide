@@ -1,0 +1,88 @@
+{
+  "id": "hip_flexor",
+  "zone": "hip",
+  "display_name": "Hip flexors",
+  "subtitle": "Tight from sitting, strained from speed work",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 60,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Hip flexor strain most common after speed sessions following a rest period"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Tightness or pulling at the front of the hip, eases after warm-up",
+      "can_run": true,
+      "can_run_note": "Yes — add hip flexor warm-up drills before running",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Psoas and iliacus tightness from prolonged sitting shortening the hip flexors",
+        "Anterior pelvic tilt caused by tight hip flexors pulling the pelvis forward",
+        "Weak glutes failing to oppose hip flexor dominance"
+      ],
+      "relief": [
+        "Couch stretch: one knee on floor, other foot forward, hold 90s each side",
+        "Standing hip flexor stretch with posterior pelvic tilt 60s each side",
+        "Foam roll the quad and TFL to release hip flexor tension",
+        "Heat on the front of the hip before runs"
+      ],
+      "prevention": [
+        "Hip flexor stretch daily — especially on work days with prolonged sitting",
+        "Glute strengthening to balance hip flexor dominance",
+        "Running drills: high knees and A-skips to activate hip flexors through range",
+        "Reduce sitting time — set a timer to stand every 45 minutes"
+      ]
+    },
+    "moderate": {
+      "description": "Sharp pull or ache at the front of the hip during high knee drive",
+      "can_run": "modified",
+      "can_run_note": "Easy running only — no speed work or hill sprints",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Iliopsoas tendinopathy from repetitive hip flexion under load",
+        "Rectus femoris strain at its origin on the anterior inferior iliac spine",
+        "Snapping hip syndrome — iliopsoas tendon catching over the iliopectineal eminence"
+      ],
+      "relief": [
+        "Rest from speed work and hill running for 1 week",
+        "Gentle active range of motion — leg swings forward and back",
+        "Eccentric hip flexor loading: slow lowering from high knee position",
+        "Anti-inflammatory medication for 5 days"
+      ],
+      "prevention": [
+        "Progressive speed work introduction — no more than 1 session per week",
+        "Hip flexor strengthening through full range — not just stretching",
+        "Avoid sudden return to fast running after rest periods"
+      ]
+    },
+    "severe": {
+      "description": "Acute sharp pain with any knee drive, cannot run or climb stairs",
+      "can_run": false,
+      "can_run_note": "Do not run — possible muscle or tendon tear",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Grade 2 or 3 hip flexor strain requiring imaging",
+        "Avulsion fracture at the AIIS in younger athletes",
+        "Iliopsoas tendon tear or significant bursitis"
+      ],
+      "relief": [
+        "RICE protocol immediately",
+        "Physiotherapy or sports medicine assessment urgently",
+        "Imaging to rule out avulsion fracture in athletes under 25",
+        "Crutches if unable to weight-bear comfortably"
+      ],
+      "prevention": [
+        "6–12 week rehabilitation before return to speed work",
+        "Progressive loading programme supervised by physiotherapist"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Audible or felt pop at the time of injury",
+    "Severe pain climbing stairs or lifting the knee",
+    "Bruising appearing on the front of the thigh",
+    "No improvement after 5 days of rest"
+  ]
+}

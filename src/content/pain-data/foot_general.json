@@ -1,0 +1,65 @@
+{
+  "id": "foot_general",
+  "zone": "foot",
+  "display_name": "Foot pain (general)",
+  "subtitle": "Foot pain — location not pinpointed",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 50,
+    "long_run_km_threshold": 22,
+    "risk_note": "General foot pain is often the first sign of shoe wear or mileage issues"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "General foot soreness or fatigue after runs",
+      "can_run": true,
+      "can_run_note": "Yes — try to identify specific location using this app",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "General foot fatigue from running volume",
+        "Intrinsic foot muscle fatigue",
+        "Worn-out shoe midsole losing cushioning"
+      ],
+      "relief": [
+        "Foot rolling with a tennis or lacrosse ball",
+        "Toe spreads and foot doming exercises",
+        "Check shoe mileage — replace every 600–800 km",
+        "Elevate feet after long runs"
+      ],
+      "prevention": [
+        "Regular foot strengthening exercises",
+        "Use this app to identify specific location for targeted advice",
+        "Rotate between two pairs of shoes"
+      ]
+    },
+    "moderate": {
+      "description": "Consistent foot pain affecting your running",
+      "can_run": "modified",
+      "can_run_note": "Easy runs only — identify specific location",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": ["Specific foot structure under stress — needs identification"],
+      "relief": [
+        "Reduce mileage by 40%",
+        "Use this app to narrow down heel, arch, ball of foot or toe"
+      ],
+      "prevention": ["Address root cause once specific structure identified"]
+    },
+    "severe": {
+      "description": "Significant foot pain limiting walking",
+      "can_run": false,
+      "can_run_note": "Do not run — seek assessment",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": ["Undiagnosed foot pathology — possible stress fracture or tendon tear"],
+      "relief": ["Rest and see a physiotherapist or podiatrist"],
+      "prevention": ["Return with clear diagnosis and structured plan"]
+    }
+  },
+  "see_physio_if": [
+    "Deep bone-like pain rather than muscle soreness",
+    "Pain at rest or at night",
+    "Visible swelling on the foot",
+    "No improvement after 5 days of rest"
+  ]
+}

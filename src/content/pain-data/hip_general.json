@@ -1,0 +1,83 @@
+{
+  "id": "hip_general",
+  "zone": "hip",
+  "display_name": "Hip pain (general)",
+  "subtitle": "Hip or glute pain — location not pinpointed",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "long_run_km_threshold": 22,
+    "risk_note": "General hip pain often stems from glute weakness and mileage spikes"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Vague aching in the hip or glute region after running",
+      "can_run": true,
+      "can_run_note": "Yes — reduce intensity and add hip strengthening",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "General hip muscle fatigue from mileage increase",
+        "Weak glute complex failing to stabilise the pelvis under load",
+        "Tight hip capsule and external rotators from sustained running"
+      ],
+      "relief": [
+        "Figure-4 and pigeon pose stretching",
+        "Foam roll glutes and TFL",
+        "Ice or heat depending on whether the pain feels sharp or achy",
+        "Easy walking to maintain mobility"
+      ],
+      "prevention": [
+        "Full hip strengthening programme: glute bridge, clamshell, lateral walk",
+        "Mobility work after every run",
+        "Do not increase mileage more than 10% per week"
+      ]
+    },
+    "moderate": {
+      "description": "Consistent hip pain affecting running form",
+      "can_run": "modified",
+      "can_run_note": "Short easy runs only — identify the specific structure before progressing",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Multiple possible structures involved — needs specific diagnosis",
+        "Compensatory movement patterns developing",
+        "Training load exceeding recovery capacity"
+      ],
+      "relief": [
+        "Reduce mileage by 50% and eliminate speed and hill work",
+        "Try to identify whether pain is anterior, lateral, or posterior",
+        "Rest and assess — use this app to try to narrow down the location"
+      ],
+      "prevention": [
+        "Targeted hip strengthening based on specific structure identified",
+        "Gait analysis to identify compensatory patterns"
+      ]
+    },
+    "severe": {
+      "description": "Significant hip pain limiting walking or daily activities",
+      "can_run": false,
+      "can_run_note": "Do not run — seek diagnosis first",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Undiagnosed hip pathology requiring proper assessment",
+        "Possible hip labral tear, stress fracture, or joint pathology",
+        "Pain at this level needs imaging to guide treatment"
+      ],
+      "relief": [
+        "Rest and see a physiotherapist or sports medicine doctor",
+        "Do not self-treat significant hip pain without diagnosis",
+        "Imaging including X-ray or MRI may be needed"
+      ],
+      "prevention": [
+        "Return to running only with a clear diagnosis and structured plan"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Pain in the groin suggesting hip joint involvement",
+    "Pain at night or at rest",
+    "Clicking or locking in the hip joint",
+    "No improvement after 1 week of reduced load"
+  ]
+}

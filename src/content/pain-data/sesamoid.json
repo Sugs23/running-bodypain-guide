@@ -1,0 +1,86 @@
+{
+  "id": "sesamoid",
+  "zone": "foot",
+  "display_name": "Big toe / sesamoid",
+  "subtitle": "Pain at the base of the big toe",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "long_run_km_threshold": 24,
+    "risk_note": "Sesamoid stress more common in forefoot runners and sprinters"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Aching under the big toe joint after runs, worse in thin-soled shoes",
+      "can_run": true,
+      "can_run_note": "Yes — add sesamoid padding and use cushioned shoes",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Sesamoid bones absorbing high load during toe-off phase",
+        "Low-drop or minimal shoes increasing sesamoid pressure",
+        "Forefoot running pattern concentrating load under the first metatarsal"
+      ],
+      "relief": [
+        "Sesamoid offloading pad — donut-shaped pad with a hole under the sesamoid",
+        "Stiff-soled shoe to limit big toe dorsiflexion",
+        "Ice under the big toe base for 15 min",
+        "Reduce hill and speed work"
+      ],
+      "prevention": [
+        "Cushioned footwear for daily wear",
+        "Avoid prolonged barefoot activity on hard surfaces",
+        "Reduce forefoot running intensity if sesamoid-prone"
+      ]
+    },
+    "moderate": {
+      "description": "Persistent big toe pain, tender to press, pain with push-off",
+      "can_run": "modified",
+      "can_run_note": "Easy runs with stiff-soled shoe and sesamoid offloading pad only",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Sesamoiditis — inflammation of the sesamoid bones and surrounding tissue",
+        "Bipartite sesamoid being stressed as if fractured",
+        "Hallux flexor tendinopathy contributing to local pain"
+      ],
+      "relief": [
+        "Sesamoid offloading orthotic — custom is most effective",
+        "Anti-inflammatory medication for 5 days",
+        "Reduce mileage by 50% for 2 weeks",
+        "Avoid any propulsive activity"
+      ],
+      "prevention": [
+        "Custom orthotics with sesamoid relief for high-mileage running",
+        "Footwear with stiff forefoot to limit dorsiflexion stress"
+      ]
+    },
+    "severe": {
+      "description": "Severe big toe base pain, possible swelling, cannot push off",
+      "can_run": false,
+      "can_run_note": "Do not run — possible sesamoid stress fracture",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Sesamoid stress fracture — slow to heal, can become avascular necrosis",
+        "Complete sesamoiditis requiring offloading for 6–8 weeks",
+        "Surgical removal may be needed in recalcitrant cases"
+      ],
+      "relief": [
+        "Complete rest from running",
+        "X-ray and bone scan — X-ray alone can miss sesamoid fractures",
+        "Offloading boot for confirmed fracture",
+        "Orthopaedic or podiatric referral"
+      ],
+      "prevention": [
+        "8–12 week offloading and gradual return protocol",
+        "Permanent sesamoid offloading orthotic for future running"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Pain directly under the big toe base, tender to firm press",
+    "Pain that does not improve with cushioning and rest",
+    "Swelling visible under the big toe",
+    "No improvement after 2 weeks"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "hip": [
+    { "id": "glute_max",   "label": "Gluteus maximus",         "sub": "Power & propulsion" },
+    { "id": "glute_med",   "label": "Gluteus medius",          "sub": "Abductor, IT band root" },
+    { "id": "hip_flexor",  "label": "Hip flexors",             "sub": "Tight from sitting" },
+    { "id": "it_band",     "label": "IT band (origin)",        "sub": "TFL / upper IT band" },
+    { "id": "piriformis",  "label": "Piriformis",              "sub": "Deep hip, sciatic-like pain" },
+    { "id": "hip_general", "label": "Can't pinpoint exactly",  "sub": "General hip pain" }
+  ],
+  "thigh": [
+    { "id": "quad",          "label": "Quads (front of thigh)",  "sub": "VMO, downhill load" },
+    { "id": "hamstring",     "label": "Hamstrings (back)",       "sub": "Speed work, late race" },
+    { "id": "adductor",      "label": "Groin / adductor",        "sub": "Medial thigh strain" },
+    { "id": "tfl",           "label": "TFL / outer thigh",       "sub": "Often confused with IT band" },
+    { "id": "thigh_general", "label": "Can't pinpoint exactly",  "sub": "General thigh pain" }
+  ],
+  "knee": [
+    { "id": "patellofemoral",  "label": "Kneecap (runner's knee)", "sub": "Most common running injury" },
+    { "id": "it_band_knee",    "label": "Outer knee (IT band)",    "sub": "Lateral knee friction" },
+    { "id": "patellar_tendon", "label": "Below kneecap (tendon)",  "sub": "Patellar tendinopathy" },
+    { "id": "medial_knee",     "label": "Inner knee",              "sub": "MCL / medial meniscus" },
+    { "id": "knee_general",    "label": "Can't pinpoint exactly",  "sub": "General knee pain" }
+  ],
+  "lower_leg": [
+    { "id": "shin_splints", "label": "Shin (front / inner)",    "sub": "Medial tibial stress" },
+    { "id": "calf_upper",   "label": "Upper calf",              "sub": "Gastrocnemius strain" },
+    { "id": "calf_lower",   "label": "Lower / deep calf",       "sub": "Soleus strain" },
+    { "id": "peroneal",     "label": "Outer lower leg",         "sub": "Peroneal tendon" },
+    { "id": "lower_leg_general", "label": "Can't pinpoint exactly", "sub": "General lower leg pain" }
+  ],
+  "ankle": [
+    { "id": "achilles",       "label": "Achilles tendon",         "sub": "Insertional or mid-portion" },
+    { "id": "ankle_lateral",  "label": "Outer ankle",             "sub": "Lateral sprain" },
+    { "id": "ankle_medial",   "label": "Inner ankle",             "sub": "Medial sprain" },
+    { "id": "ankle_general",  "label": "Can't pinpoint exactly",  "sub": "General ankle pain" }
+  ],
+  "foot": [
+    { "id": "plantar_fascia", "label": "Heel / arch",             "sub": "Classic morning heel pain" },
+    { "id": "metatarsalgia",  "label": "Ball of foot",            "sub": "Forefoot overload" },
+    { "id": "sesamoid",       "label": "Big toe base",            "sub": "Sesamoiditis" },
+    { "id": "black_toenail",  "label": "Toenail",                 "sub": "Subungual haematoma" },
+    { "id": "foot_general",   "label": "Can't pinpoint exactly",  "sub": "General foot pain" }
+  ]
+}

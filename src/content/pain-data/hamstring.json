@@ -1,0 +1,88 @@
+{
+  "id": "hamstring",
+  "zone": "thigh",
+  "display_name": "Hamstrings",
+  "subtitle": "Back of thigh — common in speed work and late in races",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 60,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Hamstring strains peak during speed sessions and the final km of long runs"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Tightness or ache in the back of the thigh, eases with warm-up",
+      "can_run": true,
+      "can_run_note": "Yes — no speed work or hill sprints until resolved",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Hamstring tightness from repeated hip flexion without adequate stretching",
+        "Fatigue-related tightness in the final km of long runs",
+        "Anterior pelvic tilt increasing hamstring length demand"
+      ],
+      "relief": [
+        "Standing hamstring stretch with foot on a surface at hip height 60s each side",
+        "Foam roll hamstrings slowly from knee to glute",
+        "Easy cycling 20 min to loosen hamstrings without load",
+        "Heat before running, ice after"
+      ],
+      "prevention": [
+        "Nordic hamstring curls — the single best hamstring injury prevention exercise",
+        "Hip flexor stretching to reduce anterior pelvic tilt",
+        "Glute strengthening to take load off hamstrings",
+        "Dynamic hamstring warm-up before speed sessions"
+      ]
+    },
+    "moderate": {
+      "description": "Sharp pulling sensation during runs, especially at faster paces",
+      "can_run": "modified",
+      "can_run_note": "Easy conversational pace only — zero speed work",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Proximal hamstring tendinopathy at the ischial tuberosity",
+        "Partial hamstring strain with ongoing micro-tearing",
+        "Sciatic nerve irritation mimicking hamstring pain"
+      ],
+      "relief": [
+        "Avoid stretching a strained hamstring — load it instead",
+        "Isometric hamstring holds: seated leg curl hold 45s × 5",
+        "Reduce mileage by 50% — eliminate all fast running",
+        "Anti-inflammatory medication for 5 days"
+      ],
+      "prevention": [
+        "Nordic curls progression 3× per week",
+        "Avoid sustained hip flexion positions that stress the proximal tendon",
+        "Eccentric loading programme for tendinopathy"
+      ]
+    },
+    "severe": {
+      "description": "Acute tearing pain mid-run, unable to continue, bruising developing",
+      "can_run": false,
+      "can_run_note": "Do not run — possible significant hamstring tear",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Grade 2 or 3 hamstring strain requiring grading via ultrasound",
+        "Proximal hamstring avulsion in severe cases",
+        "Sciatic nerve involvement needing specialist assessment"
+      ],
+      "relief": [
+        "Ice and compression immediately",
+        "Crutches if unable to walk normally",
+        "Physiotherapy within 48 hours for grading",
+        "Imaging to confirm grade before starting rehabilitation"
+      ],
+      "prevention": [
+        "Return to running protocol: 6 weeks minimum for grade 2",
+        "Full sprint capacity required before race participation"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Bruising appearing down the back of the thigh",
+    "Cannot walk without limping",
+    "Sharp proximal pain at the sitting bone",
+    "Symptoms down the leg to the foot suggesting nerve involvement"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "plantar_fascia",
+  "zone": "foot",
+  "display_name": "Plantar fasciitis",
+  "subtitle": "Classic morning heel pain",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 50,
+    "long_run_km_threshold": 28,
+    "risk_note": "Risk spikes in weeks with long runs over 28 km"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Ache at run start, eases after 5–10 min warm-up",
+      "can_run": true,
+      "can_run_note": "Yes — cut mileage by 20%",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Micro-tears in the plantar fascia from repetitive foot strike",
+        "Tight calves transmitting extra tension to heel insertion",
+        "Worn-out shoe midsole failing to absorb impact"
+      ],
+      "relief": [
+        "Freeze a water bottle and roll under arch for 5 min each foot",
+        "Towel stretch: loop towel around toes, pull back, hold 30s × 3",
+        "Heel gel insert for immediate cushioning",
+        "Avoid bare feet on hard floors first thing in the morning"
+      ],
+      "prevention": [
+        "Calf stretching before the first step of the day",
+        "Towel scrunches and toe spreads to strengthen foot muscles",
+        "Replace running shoes every 600–800 km",
+        "Gradual transition if moving to lower-drop shoes"
+      ]
+    },
+    "moderate": {
+      "description": "Pain persists beyond warm-up and affects your pace",
+      "can_run": "modified",
+      "can_run_note": "Run/walk intervals only — stop if pain exceeds 4/10",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Repeated micro-tears without enough recovery time",
+        "Compensating gait pattern loading other structures",
+        "Inflamed fascial tissue around the heel insertion"
+      ],
+      "relief": [
+        "Ice heel for 15 min after any activity",
+        "Night splint to keep fascia gently stretched overnight",
+        "Ibuprofen or naproxen for 5–7 days to reduce inflammation",
+        "Reduce weekly mileage by 40–50% for 2 weeks"
+      ],
+      "prevention": [
+        "Eccentric calf raises on a step — 3 sets of 15 daily",
+        "Rotate between two pairs of shoes to vary load",
+        "Avoid back-to-back hard days",
+        "Check for overpronation — consider stability shoes"
+      ]
+    },
+    "severe": {
+      "description": "Pain at rest, significant limp, cannot complete a run",
+      "can_run": false,
+      "can_run_note": "Do not run — pool running or cycling only",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Significant fascial tearing or chronic degeneration",
+        "Possible heel spur formation aggravating tissue",
+        "Prolonged overload without adequate rest"
+      ],
+      "relief": [
+        "Complete rest from running for at least 2 weeks",
+        "Physiotherapy assessment for shockwave therapy or taping",
+        "Prescription orthotics may be needed",
+        "Anti-inflammatory medication under medical guidance"
+      ],
+      "prevention": [
+        "Return to running via a structured walk-run programme",
+        "Address root cause — gait analysis recommended",
+        "Foot strengthening programme before returning to full load"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Pain does not improve after 2 weeks of self-management",
+    "Sharp stabbing pain with every step including walking",
+    "Visible swelling around the heel"
+  ]
+}

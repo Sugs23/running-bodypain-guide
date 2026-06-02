@@ -1,0 +1,88 @@
+{
+  "id": "patellar_tendon",
+  "zone": "knee",
+  "display_name": "Patellar tendinopathy",
+  "subtitle": "Below the kneecap — jumper's knee in runners",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 65,
+    "long_run_km_threshold": 28,
+    "risk_note": "Patellar tendon load spikes with speed work and back-to-back hard days"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Stiffness below kneecap at run start, eases after warm-up",
+      "can_run": true,
+      "can_run_note": "Yes — monitor pain during and after, reduce speed work",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Patellar tendon collagen disruption from repetitive loading",
+        "Quad tightness increasing compressive load on the tendon",
+        "Sudden speed work introduction without adequate tendon preparation"
+      ],
+      "relief": [
+        "Isometric quad holds: wall sit 45s × 5 for immediate pain relief",
+        "Ice below kneecap after every run",
+        "Patellar tendon strap during running",
+        "Reduce speed work to once per week maximum"
+      ],
+      "prevention": [
+        "Heavy slow resistance squats 3× per week — the best tendon treatment",
+        "Eccentric step-downs: slow single-leg lowering off a step",
+        "Avoid back-to-back hard days",
+        "Introduce speed work gradually — one session per week"
+      ]
+    },
+    "moderate": {
+      "description": "Pain throughout runs, tender to press below kneecap",
+      "can_run": "modified",
+      "can_run_note": "Easy flat runs only — zero speed, stairs, or squatting",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Reactive tendinopathy — tendon is irritable and swollen",
+        "Training load spikes without adequate tendon adaptation time",
+        "Quad weakness causing the tendon to absorb disproportionate force"
+      ],
+      "relief": [
+        "Isometric leg press: 70% bodyweight, 45s holds × 5 for pain",
+        "Reduce mileage by 50% and all jumping and squatting",
+        "Heavy slow resistance programme under load",
+        "Anti-inflammatory medication short term only — tendons need load, not rest"
+      ],
+      "prevention": [
+        "Continue heavy slow resistance squats through recovery",
+        "Progressive tendon loading — increase slowly",
+        "Minimum 48h between hard running sessions"
+      ]
+    },
+    "severe": {
+      "description": "Pain at rest, significant swelling below kneecap, cannot run",
+      "can_run": false,
+      "can_run_note": "Do not run — degenerative tendinopathy needs structured rehab",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Degenerative tendinopathy with structural change in the tendon",
+        "Possible partial tendon tear requiring imaging",
+        "Chronic overload without adequate rehabilitation"
+      ],
+      "relief": [
+        "Physiotherapy for structured tendon rehabilitation programme",
+        "Ultrasound to assess tendon structure",
+        "PRP injection may be considered for degenerative tendinopathy",
+        "Pool running to maintain fitness during recovery"
+      ],
+      "prevention": [
+        "12-week heavy slow resistance programme before return to running",
+        "Never return to speed work until pain-free at easy pace for 3 weeks"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Visible swelling below the kneecap",
+    "Pain at rest or at night",
+    "No improvement after 3 weeks of isometric loading",
+    "Pain worsening despite reduced load"
+  ]
+}

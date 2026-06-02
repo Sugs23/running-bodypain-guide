@@ -1,0 +1,87 @@
+{
+  "id": "it_band",
+  "zone": "hip",
+  "display_name": "IT band (TFL origin)",
+  "subtitle": "Outer hip tightness radiating down the thigh",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "long_run_km_threshold": 22,
+    "risk_note": "TFL tightness is the upstream cause of IT band knee pain"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Outer hip or upper thigh tightness, feels like a tight band",
+      "can_run": true,
+      "can_run_note": "Yes — foam roll TFL before and after runs",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "TFL overuse compensating for weak glute medius",
+        "Prolonged sitting in hip flexion shortening the TFL",
+        "Cambered road running loading the outer hip asymmetrically"
+      ],
+      "relief": [
+        "Foam roll TFL — outer quad between hip and knee, not the IT band itself",
+        "Figure-4 piriformis stretch 90s each side",
+        "Side-lying quad stretch reaching back for the foot",
+        "Ice outer hip after runs"
+      ],
+      "prevention": [
+        "Glute medius strengthening: clamshells and lateral band walks",
+        "Avoid always running on the same side of a cambered road",
+        "Single-leg squat with knee tracking over second toe",
+        "Keep TFL mobile with regular foam rolling"
+      ]
+    },
+    "moderate": {
+      "description": "Persistent outer hip and thigh tightness, pulling sensation during runs",
+      "can_run": "modified",
+      "can_run_note": "Flat routes only — reduce pace and distance by 30%",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Chronic TFL overactivation from sustained glute weakness",
+        "IT band tension high enough to refer into the outer knee",
+        "Hip internal rotation pattern increasing TFL load"
+      ],
+      "relief": [
+        "Daily TFL foam rolling and hip flexor stretching",
+        "Prioritise glute med strengthening programme",
+        "Reduce weekly mileage by 30% for 2 weeks",
+        "Dry needling to TFL trigger points — physio can advise"
+      ],
+      "prevention": [
+        "Address glute medius weakness as the root cause",
+        "Hip abductor strength programme 3× per week",
+        "Gait analysis to identify hip drop or crossover pattern"
+      ]
+    },
+    "severe": {
+      "description": "IT band pain extending from hip to knee, cannot run",
+      "can_run": false,
+      "can_run_note": "Rest — address upstream cause before returning",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Severe IT band syndrome with both hip and knee involvement",
+        "Chronic TFL trigger points requiring hands-on treatment",
+        "Underlying hip biomechanics fault driving the entire chain"
+      ],
+      "relief": [
+        "Complete running rest for 2 weeks",
+        "Physiotherapy for manual therapy and biomechanical assessment",
+        "Structured hip strengthening programme",
+        "Gait retraining"
+      ],
+      "prevention": [
+        "Full kinetic chain assessment before return to running",
+        "Hip strength base must be established before mileage builds"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Pain extends from hip to knee",
+    "No improvement after 2 weeks of foam rolling and strengthening",
+    "Pain present on both sides simultaneously"
+  ]
+}

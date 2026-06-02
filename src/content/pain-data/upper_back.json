@@ -1,0 +1,90 @@
+{
+  "id": "upper_back",
+  "zone": "upper_back",
+  "display_name": "Upper back & rhomboids",
+  "subtitle": "Mid-back tightness from posture and fatigue",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 60,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Upper back fatigue common in the final third of marathon-distance runs"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Tightness between shoulder blades after runs, eases with stretching",
+      "can_run": true,
+      "can_run_note": "Yes — focus on tall posture and relaxed upper body",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Rhomboid and mid-trapezius fatigue from sustained arm swing",
+        "Thoracic kyphosis increasing load on posterior structures",
+        "Weak scapular stabilisers allowing shoulders to round under fatigue"
+      ],
+      "relief": [
+        "Thoracic foam roller extension — 10 slow rolls post-run",
+        "Thread-the-needle stretch on all fours 30s each side",
+        "Heat pad between shoulder blades 15 min",
+        "Child's pose with arms extended 60s × 3"
+      ],
+      "prevention": [
+        "Prone Y-T-W exercises 3× per week for scapular strength",
+        "Run tall — imagine a string pulling the crown of your head upward",
+        "Strengthen mid and lower trapezius",
+        "Limit consecutive hours of sitting with rounded back"
+      ]
+    },
+    "moderate": {
+      "description": "Persistent ache between shoulder blades, worse sitting after runs",
+      "can_run": "modified",
+      "can_run_note": "Yes — shorten runs and focus on posture",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Chronic thoracic stiffness reducing spinal extension during running",
+        "Rhomboid strain from repeated scapular retraction effort",
+        "Desk posture compounding running posture faults"
+      ],
+      "relief": [
+        "Thoracic manipulation or self-release on foam roller",
+        "Band rows and face pulls to strengthen mid-back",
+        "Ibuprofen for muscle inflammation",
+        "Reduce run duration by 30% temporarily"
+      ],
+      "prevention": [
+        "Thoracic mobility work daily — extension over foam roller",
+        "Strengthening programme for scapular retractors",
+        "Ergonomic desk assessment",
+        "Incorporate upper back work into strength days"
+      ]
+    },
+    "severe": {
+      "description": "Sharp localised pain, pain breathing deeply, cannot sit comfortably",
+      "can_run": false,
+      "can_run_note": "Do not run — rule out rib or thoracic joint issue first",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Possible thoracic joint dysfunction or rib stress reaction",
+        "Significant muscle spasm limiting movement",
+        "Referred pain that may need differential diagnosis"
+      ],
+      "relief": [
+        "Rest and gentle heat",
+        "Physiotherapy assessment — especially if pain with breathing",
+        "Avoid heavy lifting or overhead activity",
+        "GP review if no improvement in 5 days"
+      ],
+      "prevention": [
+        "Return only when full pain-free range of thoracic rotation restored",
+        "Sustained thoracic mobility programme",
+        "Posture correction programme"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Pain with deep breathing",
+    "Sharp localised pain rather than diffuse ache",
+    "No improvement after 1 week",
+    "Pain radiating around ribs"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "thigh_general",
+  "zone": "thigh",
+  "display_name": "Thigh pain (general)",
+  "subtitle": "Front, back or inner thigh — location not pinpointed",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "long_run_km_threshold": 22,
+    "risk_note": "General thigh pain often reflects accumulated fatigue from mileage increases"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "General thigh fatigue or aching after running",
+      "can_run": true,
+      "can_run_note": "Yes — easy pace, try to identify which part of the thigh aches most",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "General muscle fatigue from training load",
+        "Multiple muscles fatiguing simultaneously in long efforts",
+        "Delayed onset soreness from harder sessions"
+      ],
+      "relief": [
+        "Foam roll entire thigh — front, back and outer",
+        "Easy cycling or swimming to flush out fatigue",
+        "Protein and carbohydrate recovery nutrition within 30 min of running",
+        "Elevation and compression"
+      ],
+      "prevention": [
+        "Use this app to identify the specific structure and get targeted advice",
+        "Balanced strength programme covering quads, hamstrings and adductors",
+        "Avoid large mileage jumps week to week"
+      ]
+    },
+    "moderate": {
+      "description": "Consistent thigh pain affecting running form or pace",
+      "can_run": "modified",
+      "can_run_note": "Easy runs only — try to locate the pain more precisely",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Specific muscle strain or tendinopathy not yet identified",
+        "Referred pain from hip or knee",
+        "Fatigue accumulation from consecutive hard days"
+      ],
+      "relief": [
+        "Reduce mileage by 40% and eliminate speed work",
+        "Try to identify whether front, back or inner thigh is the source",
+        "Anti-inflammatory medication for 3–5 days"
+      ],
+      "prevention": [
+        "Targeted diagnosis and specific rehabilitation",
+        "Rest week every 4th week of training"
+      ]
+    },
+    "severe": {
+      "description": "Significant thigh pain limiting walking",
+      "can_run": false,
+      "can_run_note": "Do not run — seek proper diagnosis",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Undiagnosed thigh pathology requiring assessment",
+        "Possible stress fracture of the femur — needs imaging",
+        "Significant muscle tear"
+      ],
+      "relief": [
+        "Rest and see a physiotherapist",
+        "Imaging if pain is localised and severe"
+      ],
+      "prevention": [
+        "Return to running only with a clear diagnosis and plan"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Deep bone-like pain rather than muscle ache",
+    "Pain at rest or at night",
+    "Swelling or bruising on the thigh",
+    "No improvement after 5 days of rest"
+  ]
+}

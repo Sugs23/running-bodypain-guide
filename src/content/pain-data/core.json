@@ -1,0 +1,88 @@
+{
+  "id": "core",
+  "zone": "core",
+  "display_name": "Core & abs",
+  "subtitle": "Side stitch and abdominal strain",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "consecutive_days_threshold": 4,
+    "risk_note": "Side stitch most common in early training weeks and when pace increases"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Side stitch during faster efforts, eases when slowing down",
+      "can_run": true,
+      "can_run_note": "Yes — slow down, breathe deeply, press on the stitch",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Diaphragm cramping from shallow breathing under exertion",
+        "Running too soon after eating — full stomach pulling on diaphragm ligaments",
+        "Weak deep core forcing shallow breathing pattern"
+      ],
+      "relief": [
+        "Slow to walk pace and press fingers firmly into the stitch",
+        "Exhale forcefully when the foot on the affected side strikes the ground",
+        "Deep belly breathing — breathe in for 3 steps, out for 2",
+        "Stretch arms overhead while walking to open the diaphragm"
+      ],
+      "prevention": [
+        "Do not eat within 2 hours of a hard run",
+        "Practise diaphragmatic breathing during easy runs",
+        "Build running volume gradually — stitches reduce as fitness improves",
+        "Stay well hydrated — dehydration increases stitch frequency"
+      ]
+    },
+    "moderate": {
+      "description": "Persistent side pain or abdominal strain that does not ease mid-run",
+      "can_run": "modified",
+      "can_run_note": "Walk until pain resolves — do not push through abdominal pain",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Oblique or rectus abdominis strain from coughing, sneezing, or sudden effort",
+        "Core fatigue causing compensatory breathing patterns",
+        "Iliopsoas tightness referring into the lower abdomen"
+      ],
+      "relief": [
+        "Rest 2–3 days from running if muscle strain suspected",
+        "Gentle trunk rotation stretches",
+        "Heat on abdominal muscles if strained",
+        "Anti-inflammatory medication for muscle strain"
+      ],
+      "prevention": [
+        "Core endurance work — plank and dead bug 3× per week",
+        "Breathing rhythm practice during easy runs",
+        "Gradual introduction of tempo and interval work",
+        "Hip flexor stretching to reduce iliopsoas tension"
+      ]
+    },
+    "severe": {
+      "description": "Sharp abdominal pain at rest, guarding, pain unrelated to exercise",
+      "can_run": false,
+      "can_run_note": "Do not run — seek medical assessment",
+      "urgency_label": "See a doctor",
+      "urgency_color": "red",
+      "why": [
+        "Possible hernia, especially with sharp localised pain and bulge",
+        "Non-musculoskeletal cause that requires medical diagnosis",
+        "Significant abdominal muscle tear"
+      ],
+      "relief": [
+        "Complete rest from all exercise",
+        "GP or emergency assessment if pain is severe",
+        "Do not push through or self-treat sharp abdominal pain"
+      ],
+      "prevention": [
+        "Progressive core loading before returning to running",
+        "Hernia screening if recurrent groin or lower abdominal pain"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Abdominal pain at rest unrelated to exercise",
+    "Visible bulge in the groin or abdomen",
+    "Pain that does not resolve within 48 hours of rest",
+    "Nausea or vomiting alongside abdominal pain"
+  ]
+}

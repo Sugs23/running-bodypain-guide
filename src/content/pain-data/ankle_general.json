@@ -1,0 +1,60 @@
+{
+  "id": "ankle_general",
+  "zone": "ankle",
+  "display_name": "Ankle pain (general)",
+  "subtitle": "Ankle area pain — location not pinpointed",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Ankle pain often reflects footwear, terrain, or stability issues"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "General ankle stiffness or aching after runs",
+      "can_run": true,
+      "can_run_note": "Yes — try to identify whether inner or outer ankle",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Ankle joint stress from accumulated mileage",
+        "Ankle stiffness from inadequate mobility work",
+        "Footwear not appropriate for foot type"
+      ],
+      "relief": [
+        "Ankle circles and alphabet tracing before and after runs",
+        "Ice after runs",
+        "Check shoe wear pattern for clues about foot strike"
+      ],
+      "prevention": [
+        "Ankle mobility and stability work daily",
+        "Use this app to identify specific structure for targeted treatment"
+      ]
+    },
+    "moderate": {
+      "description": "Ankle pain affecting running or walking",
+      "can_run": "modified",
+      "can_run_note": "Easy flat runs only",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": ["Specific ankle structure under stress — needs identification"],
+      "relief": ["Reduce mileage and identify specific location using this app"],
+      "prevention": ["Address root cause once structure is identified"]
+    },
+    "severe": {
+      "description": "Significant ankle pain or instability",
+      "can_run": false,
+      "can_run_note": "Do not run until assessed",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": ["Undiagnosed ankle pathology requiring assessment"],
+      "relief": ["Rest and physiotherapy assessment"],
+      "prevention": ["Return with clear diagnosis and structured plan"]
+    }
+  },
+  "see_physio_if": [
+    "Swelling around the ankle",
+    "Instability or giving way",
+    "Pain at rest",
+    "No improvement after 5 days"
+  ]
+}

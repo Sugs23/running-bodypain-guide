@@ -1,0 +1,80 @@
+{
+  "id": "knee_general",
+  "zone": "knee",
+  "display_name": "Knee pain (general)",
+  "subtitle": "Knee pain — location not yet pinpointed",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "long_run_km_threshold": 22,
+    "risk_note": "Knee pain is the most common running injury — often driven by hip weakness"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "General knee aching after runs",
+      "can_run": true,
+      "can_run_note": "Yes — reduce intensity and identify the specific location",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "General knee joint stress from accumulated mileage",
+        "Multiple structures fatiguing from training load",
+        "Hip weakness transmitting extra load to the knee"
+      ],
+      "relief": [
+        "Ice knee after every run for 15 min",
+        "Elevate legs after long runs",
+        "Identify whether pain is front, outer, or inner knee and use specific panel"
+      ],
+      "prevention": [
+        "Hip and glute strengthening — the most effective knee injury prevention",
+        "10% mileage increase rule",
+        "Avoid consecutive hard days"
+      ]
+    },
+    "moderate": {
+      "description": "Knee pain affecting running form or pace",
+      "can_run": "modified",
+      "can_run_note": "Easy flat runs only — no hills or speed work",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Specific structure being irritated — needs identification",
+        "Training load exceeding recovery capacity",
+        "Biomechanical fault under fatigue"
+      ],
+      "relief": [
+        "Reduce mileage by 50%",
+        "Try to localise pain: kneecap, outer, inner, or below kneecap",
+        "Anti-inflammatory medication for 3–5 days"
+      ],
+      "prevention": [
+        "Use specific pain panels to target the correct structure",
+        "Hip and quad strengthening programme"
+      ]
+    },
+    "severe": {
+      "description": "Significant knee pain, swelling, or instability",
+      "can_run": false,
+      "can_run_note": "Do not run — seek assessment",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Undiagnosed knee pathology requiring proper assessment",
+        "Possible structural damage to meniscus, ligament, or cartilage"
+      ],
+      "relief": [
+        "Rest and see a physiotherapist for diagnosis",
+        "Imaging if swelling or instability present"
+      ],
+      "prevention": [
+        "Return to running only with a clear diagnosis and structured plan"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Swelling inside or around the knee",
+    "Knee giving way or feeling unstable",
+    "Pain at night or at rest",
+    "No improvement after 1 week of reduced load"
+  ]
+}

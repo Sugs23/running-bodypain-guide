@@ -1,0 +1,86 @@
+{
+  "id": "calf_lower",
+  "zone": "lower_leg",
+  "display_name": "Lower calf (soleus)",
+  "subtitle": "Deep lower calf — slow to heal, often underestimated",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Soleus is loaded more at slower paces and longer distances than gastrocnemius"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Deep aching in the lower calf, worse going upstairs",
+      "can_run": true,
+      "can_run_note": "Yes — avoid hills, include bent-knee calf stretches",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Soleus fatigue from sustained load during long slow runs",
+        "Bent-knee loading during uphill running stressing the soleus specifically",
+        "Inadequate recovery between long runs"
+      ],
+      "relief": [
+        "Bent-knee calf stretch: wall lean with knee bent 60s each side — targets soleus specifically",
+        "Foam roll lower calf",
+        "Heat on lower calf before runs",
+        "Rest 1–2 days between long efforts"
+      ],
+      "prevention": [
+        "Eccentric calf raises with bent knee — isolates the soleus",
+        "Gradual hill running introduction",
+        "Adequate rest between marathon-distance long runs"
+      ]
+    },
+    "moderate": {
+      "description": "Persistent deep lower calf ache, tender to squeeze, worse after runs",
+      "can_run": "modified",
+      "can_run_note": "Flat easy runs only — no hills",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Soleus strain or tendinopathy at the Achilles-soleus junction",
+        "Stress reaction in the tibia or fibula adjacent to the soleus attachment",
+        "Posterior compartment syndrome in high-mileage runners"
+      ],
+      "relief": [
+        "Reduce mileage by 50% for 2 weeks",
+        "Bent-knee eccentric calf raises — load the soleus eccentrically",
+        "Ice after every run",
+        "Anti-inflammatory medication"
+      ],
+      "prevention": [
+        "Soleus-specific strengthening in the training programme",
+        "Avoid sudden increase in uphill or trail running",
+        "Monitor for tibial pain alongside calf pain"
+      ]
+    },
+    "severe": {
+      "description": "Deep calf pain at rest, severe after any running, possible numbness",
+      "can_run": false,
+      "can_run_note": "Do not run — soleus injuries become chronic if undertreated",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Significant soleus strain or tear",
+        "Possible stress fracture of the tibia or fibula — needs imaging",
+        "Chronic posterior compartment syndrome"
+      ],
+      "relief": [
+        "Complete rest and physiotherapy assessment",
+        "MRI or bone scan if stress fracture suspected",
+        "Compartment pressure testing if pain is severe and diffuse"
+      ],
+      "prevention": [
+        "Full rehabilitation before return — soleus injuries frequently become chronic",
+        "Progressive loading programme under physio guidance"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Deep bone-like pain in the lower leg",
+    "Calf pain that does not improve with rest",
+    "Tightness and pain that come on at a consistent point in every run",
+    "No improvement after 1 week of rest"
+  ]
+}

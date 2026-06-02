@@ -1,0 +1,88 @@
+{
+  "id": "ankle_lateral",
+  "zone": "ankle",
+  "display_name": "Outer ankle sprain",
+  "subtitle": "Lateral ligament sprain — most common ankle injury",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Lateral sprains most common on trail runs and fatigued late-run states"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Mild outer ankle soreness after a roll or uneven surface",
+      "can_run": true,
+      "can_run_note": "Yes on flat roads — avoid trails and uneven surfaces",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Anterior talofibular ligament (ATFL) sprain from ankle inversion",
+        "Ankle instability from old sprains reducing proprioception",
+        "Peroneal muscle fatigue reducing ankle protection late in runs"
+      ],
+      "relief": [
+        "RICE for 24 hours: rest, ice 15 min every 2 hours, compression, elevation",
+        "Gentle ankle circles once acute pain settles — day 2 or 3",
+        "Ankle alphabet — trace letters with your toe to restore range",
+        "Resistance band eversion exercises"
+      ],
+      "prevention": [
+        "Single-leg balance work daily — progress to unstable surface",
+        "Peroneal strengthening: resisted eversion with band",
+        "Proprioception training: wobble board or BOSU",
+        "Trail shoes with ankle support on technical terrain"
+      ]
+    },
+    "moderate": {
+      "description": "Swelling on outer ankle, painful to walk on immediately after",
+      "can_run": "modified",
+      "can_run_note": "No running until pain-free walking — typically 5–10 days",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Grade 2 ATFL sprain with partial ligament tearing",
+        "Possible calcaneofibular ligament involvement",
+        "Peroneal tendon injury alongside the sprain"
+      ],
+      "relief": [
+        "RICE strictly for 48 hours — elevate above heart level",
+        "Ankle brace or strapping for support during walking",
+        "Physiotherapy for hands-on treatment and rehabilitation",
+        "Anti-inflammatory medication for 5 days"
+      ],
+      "prevention": [
+        "Full ligament rehabilitation before return to running",
+        "Proprioception training is critical — do not skip this",
+        "Brace support for first 4–6 weeks of return to running"
+      ]
+    },
+    "severe": {
+      "description": "Significant swelling, unable to weight-bear, severe pain",
+      "can_run": false,
+      "can_run_note": "Do not run — possible fracture must be ruled out",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Grade 3 complete ligament rupture",
+        "Possible avulsion fracture of the fibula — Ottawa rules apply",
+        "Osteochondral lesion of the talus"
+      ],
+      "relief": [
+        "Ottawa rules: if tender on the posterior fibula or cannot take 4 steps — get an X-ray",
+        "Crutches if unable to weight-bear",
+        "Physiotherapy assessment within 48 hours",
+        "Immobilisation boot if fracture ruled out but severe instability"
+      ],
+      "prevention": [
+        "Full 8–12 week rehabilitation programme before return to sport",
+        "Long-term proprioception programme to prevent recurrence"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Unable to take 4 steps immediately after the injury",
+    "Tenderness directly on the bony prominences",
+    "Swelling that does not reduce after 48 hours of RICE",
+    "History of repeated ankle sprains"
+  ]
+}

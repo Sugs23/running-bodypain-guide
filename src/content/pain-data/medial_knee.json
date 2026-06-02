@@ -1,0 +1,86 @@
+{
+  "id": "medial_knee",
+  "zone": "knee",
+  "display_name": "Inner knee",
+  "subtitle": "MCL and medial meniscus area",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 65,
+    "long_run_km_threshold": 26,
+    "risk_note": "Medial knee stress increases with foot pronation and high mileage"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Inner knee ache after long runs, eases with rest",
+      "can_run": true,
+      "can_run_note": "Yes — check for pronation, add knee strengthening",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Overpronation causing medial knee stress during stance phase",
+        "MCL micro-stress from valgus loading in fatigued runners",
+        "Pes anserinus bursitis from quad and hamstring tightness"
+      ],
+      "relief": [
+        "Ice inner knee 15 min after runs",
+        "VMO strengthening: terminal knee extensions and step-ups",
+        "Check if shoes are worn on the inner edge — may indicate overpronation",
+        "Quad and hamstring stretching"
+      ],
+      "prevention": [
+        "Assess for overpronation — consider stability shoes or orthotics",
+        "VMO and glute strengthening programme",
+        "Reduce weekly mileage if consistently sore after runs"
+      ]
+    },
+    "moderate": {
+      "description": "Medial knee pain during runs, tender to press on inner knee",
+      "can_run": "modified",
+      "can_run_note": "Short flat runs only — stop if pain exceeds 4/10",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Medial meniscus irritation from rotational load",
+        "MCL sprain from a misstep or trail running",
+        "Pes anserinus bursitis from hamstring insertional friction"
+      ],
+      "relief": [
+        "RICE protocol for 48 hours",
+        "Reduce mileage by 50%",
+        "Avoid any twisting or pivoting movements",
+        "Anti-inflammatory medication"
+      ],
+      "prevention": [
+        "Stability footwear or custom orthotics if pronation confirmed",
+        "Avoid trail running until pain resolved",
+        "Hamstring and calf flexibility work"
+      ]
+    },
+    "severe": {
+      "description": "Significant medial knee pain, swelling, locking or giving way",
+      "can_run": false,
+      "can_run_note": "Do not run — possible meniscus or ligament injury",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Meniscal tear requiring imaging and possibly surgical consultation",
+        "MCL grade 2 or 3 sprain",
+        "Joint effusion requiring aspiration"
+      ],
+      "relief": [
+        "Complete rest and physiotherapy assessment urgently",
+        "MRI to assess meniscus and ligament integrity",
+        "Possible orthopaedic referral"
+      ],
+      "prevention": [
+        "Full rehabilitation including strength and proprioception before return",
+        "Brace support during return to running if MCL involved"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Swelling inside the knee joint",
+    "Knee locking or giving way",
+    "Pain with twisting movements",
+    "No improvement after 1 week of rest"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "black_toenail",
+  "zone": "foot",
+  "display_name": "Black toenail",
+  "subtitle": "Subungual haematoma — very common in marathon runners",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 50,
+    "long_run_km_threshold": 22,
+    "risk_note": "Almost inevitable in marathon training — preventable with correct shoe fit"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Darkening under one or more toenails, mild pressure sensation",
+      "can_run": true,
+      "can_run_note": "Yes — it will resolve on its own over several weeks",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Repeated toe impact against the front of the shoe during downhill running",
+        "Shoe too short or laced too loosely allowing the foot to slide forward",
+        "Blood pooling under the nail from repeated micro-trauma"
+      ],
+      "relief": [
+        "No treatment needed for mild cases — the nail will grow out",
+        "Ensure shoes are half a thumb-width longer than your longest toe",
+        "Lace shoes more firmly to stop foot sliding forward",
+        "Keep toenails trimmed short — straight across, not rounded"
+      ],
+      "prevention": [
+        "Buy running shoes 0.5–1 size larger than casual shoes",
+        "Lace-lock technique for downhill running",
+        "Trim toenails before every long run",
+        "Moisture-wicking socks to reduce friction"
+      ]
+    },
+    "moderate": {
+      "description": "Painful pressure under nail, nail lifting from nail bed",
+      "can_run": "modified",
+      "can_run_note": "Run if tolerable — pad the nail with foam tape for protection",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Significant subungual haematoma creating pressure under the nail",
+        "Nail bed separation from repeated impact",
+        "Possible nail infection if skin is broken"
+      ],
+      "relief": [
+        "Drain the haematoma: sterile needle heated red-hot, pierce the nail to release blood — immediate pressure relief",
+        "Cover with sterile dressing after draining",
+        "Anti-bacterial ointment if skin is broken around the nail",
+        "Protect with foam toe cap during runs"
+      ],
+      "prevention": [
+        "Correct shoe sizing — this is entirely preventable",
+        "Heel-lock lacing technique",
+        "If repeated nails affected — check foot measurement professionally"
+      ]
+    },
+    "severe": {
+      "description": "Nail fully detached, nail bed exposed, infection signs",
+      "can_run": false,
+      "can_run_note": "Rest until nail bed has sufficient new nail cover",
+      "urgency_label": "See a doctor",
+      "urgency_color": "red",
+      "why": [
+        "Complete nail avulsion exposing the sensitive nail bed",
+        "Risk of nail bed infection without protection",
+        "Possible nail bed damage affecting future nail regrowth"
+      ],
+      "relief": [
+        "Keep nail bed clean and covered with non-stick sterile dressing",
+        "See a GP if signs of infection: increasing redness, swelling, pus, fever",
+        "Antibiotics if infection confirmed",
+        "A new nail will grow over 3–6 months"
+      ],
+      "prevention": [
+        "Once the nail regrows, permanently adjust shoe sizing",
+        "Consider nail protection products for ultras and marathons"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Signs of infection around the nail: heat, swelling, pus, red streaking",
+    "Fever alongside nail pain",
+    "Nail bed damage affecting nail regrowth after 6 months"
+  ]
+}

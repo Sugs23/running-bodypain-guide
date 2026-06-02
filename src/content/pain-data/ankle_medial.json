@@ -1,0 +1,87 @@
+{
+  "id": "ankle_medial",
+  "zone": "ankle",
+  "display_name": "Inner ankle",
+  "subtitle": "Medial ankle pain — deltoid ligament or tibialis posterior",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 60,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Medial ankle pain often linked to overpronation and high mileage"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Inner ankle ache after runs, particularly on longer efforts",
+      "can_run": true,
+      "can_run_note": "Yes — check footwear for signs of overpronation",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Tibialis posterior tendinopathy from overpronation overloading the medial arch",
+        "Medial ankle stress from excessive foot roll-in during stance phase",
+        "Flat feet increasing medial ankle load"
+      ],
+      "relief": [
+        "Arch support or stability shoe to reduce medial load",
+        "Tibialis posterior strengthening: heel raises with arch lift",
+        "Ice inner ankle after runs",
+        "Short foot exercise to build intrinsic foot muscle support"
+      ],
+      "prevention": [
+        "Gait analysis to assess pronation",
+        "Stability footwear or custom orthotics",
+        "Tibialis posterior strengthening programme",
+        "Avoid sudden increase in mileage on hard surfaces"
+      ]
+    },
+    "moderate": {
+      "description": "Medial ankle pain during runs, tender to press behind inner ankle bone",
+      "can_run": "modified",
+      "can_run_note": "Easy flat runs only — avoid any lateral or uneven surfaces",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Tibialis posterior tendinopathy progressing without intervention",
+        "Possible spring ligament stress from chronic overpronation",
+        "Medial ankle impingement in hypermobile athletes"
+      ],
+      "relief": [
+        "Arch support in all footwear including around the house",
+        "Eccentric tibialis posterior loading: slow single-leg heel raises",
+        "Reduce mileage by 40% for 2 weeks",
+        "Anti-inflammatory medication"
+      ],
+      "prevention": [
+        "Orthotics assessment",
+        "Tibialis posterior rehabilitation programme",
+        "Foot strengthening to support the medial arch long-term"
+      ]
+    },
+    "severe": {
+      "description": "Significant medial ankle pain, arch collapse, unable to run",
+      "can_run": false,
+      "can_run_note": "Do not run — tibialis posterior insufficiency can lead to flat foot deformity",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Tibialis posterior tendon tear or rupture — progressive flat foot",
+        "Deltoid ligament sprain from medial ankle sprain",
+        "Spring ligament insufficiency"
+      ],
+      "relief": [
+        "Physiotherapy and orthotics assessment urgently",
+        "Immobilisation boot if significant tendon involvement",
+        "Imaging to assess tendon integrity"
+      ],
+      "prevention": [
+        "Full rehabilitation and orthotic support before return to running",
+        "Lifelong foot strengthening to prevent recurrence"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Visible flattening of the arch that has changed over time",
+    "Pain with single-leg heel raise",
+    "Medial ankle swelling",
+    "No improvement after 2 weeks of arch support and rest"
+  ]
+}

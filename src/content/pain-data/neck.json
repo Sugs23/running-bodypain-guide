@@ -1,0 +1,90 @@
+{
+  "id": "neck",
+  "zone": "neck",
+  "display_name": "Neck & upper traps",
+  "subtitle": "Tension and stiffness from posture and arm swing",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 60,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Trap tension builds on long runs over 90 minutes"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Tightness or stiffness after long runs, eases with movement",
+      "can_run": true,
+      "can_run_note": "Yes — focus on relaxing shoulders during the run",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Forward head posture while running — head drifting ahead of the spine",
+        "Tight chest and weak upper back from prolonged sitting",
+        "Arm swing tension radiating upward into the trapezius"
+      ],
+      "relief": [
+        "Chin tucks: gently retract chin, hold 5 seconds × 10 reps",
+        "Upper trap stretch: tilt ear to shoulder, hold 30s each side",
+        "Heat pad on upper back and neck for 15 min post-run",
+        "Self-massage with a tennis ball against the wall"
+      ],
+      "prevention": [
+        "Run with gaze on the horizon, not down at your feet",
+        "Relax shoulders every km — drop them away from your ears",
+        "Band pull-aparts and face pulls 3× per week",
+        "Thoracic spine foam rolling daily"
+      ]
+    },
+    "moderate": {
+      "description": "Persistent stiffness, limited rotation, headache at base of skull",
+      "can_run": "modified",
+      "can_run_note": "Short easy runs only — stop if headache worsens",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Chronic forward head posture creating muscle imbalance",
+        "Upper cervical joint stiffness from sustained poor posture",
+        "Levator scapulae and SCM overactivation compensating for weak deep neck flexors"
+      ],
+      "relief": [
+        "Gentle neck rotations in warm water or shower",
+        "Suboccipital release: lie on two tennis balls at base of skull for 5 min",
+        "Ibuprofen for acute flare-up",
+        "Reduce screen time and check desk ergonomics"
+      ],
+      "prevention": [
+        "Deep neck flexor strengthening: chin tuck holds 10s × 10 daily",
+        "Check running form on video — head position",
+        "Strengthen mid and lower trapezius with Y-T-W exercises",
+        "Sleep with a supportive pillow — avoid sleeping on stomach"
+      ]
+    },
+    "severe": {
+      "description": "Sharp pain, numbness or tingling into the arm, severe headache",
+      "can_run": false,
+      "can_run_note": "Do not run — possible cervical nerve involvement",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Possible cervical disc irritation or nerve root compression",
+        "Significant joint restriction requiring manual therapy",
+        "Referred pain pattern needing proper diagnosis"
+      ],
+      "relief": [
+        "Complete rest from running and overhead activity",
+        "See a physiotherapist or GP urgently if arm symptoms present",
+        "Gentle heat and pain relief medication as directed",
+        "Avoid positions that increase arm or hand tingling"
+      ],
+      "prevention": [
+        "Do not return to running until neck rotation is pain-free",
+        "Cervical rehabilitation programme under physio guidance",
+        "Imaging if neurological symptoms persist beyond 1 week"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Numbness or tingling into the arm or hand",
+    "Severe headache at the base of the skull",
+    "Pain wakes you at night",
+    "No improvement after 1 week of self-management"
+  ]
+}

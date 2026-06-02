@@ -1,0 +1,90 @@
+{
+  "id": "lower_back",
+  "zone": "lower_back",
+  "display_name": "Lower back pain",
+  "subtitle": "Very common in marathon runners after mile 15",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 70,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Core fatigue after 2+ hours of running is the primary trigger"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Stiffness or ache in the lower back after long runs",
+      "can_run": true,
+      "can_run_note": "Yes — focus on posture cues during runs",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Weak glutes forcing the lumbar spine to compensate for propulsion",
+        "Anterior pelvic tilt from tight hip flexors due to sitting",
+        "Core fatigue causing spinal compression on long efforts"
+      ],
+      "relief": [
+        "Child's pose hold for 60s × 3 immediately after runs",
+        "Knees-to-chest stretch lying on your back",
+        "Cat-cow mobilisation — 10 slow reps",
+        "Heat pad on lower back for 20 min"
+      ],
+      "prevention": [
+        "Glute bridges and deadbugs — 3× per week minimum",
+        "Hip flexor couch stretch daily — 90s each side",
+        "Shorten stride to reduce lower back loading",
+        "Maintain upright posture — tall spine, slight forward lean from ankles"
+      ]
+    },
+    "moderate": {
+      "description": "Pain during runs that worsens with distance, stiff next morning",
+      "can_run": "modified",
+      "can_run_note": "Shorter runs only — stop if pain radiates to glutes or legs",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Lumbar muscle fatigue and spasm from sustained poor posture",
+        "Disc irritation from repetitive compressive loading",
+        "Weak deep core failing to stabilise the spine under load"
+      ],
+      "relief": [
+        "Reduce long run distance by 50% for 2 weeks",
+        "Daily core activation: plank, deadbug, bird-dog",
+        "Piriformis and hip flexor stretching twice daily",
+        "Ibuprofen for acute flare-ups"
+      ],
+      "prevention": [
+        "Build core endurance before building mileage",
+        "Address sitting posture — lumbar support at desk",
+        "Introduce running cadence drills to reduce impact",
+        "Swim or cycle on non-running days to maintain mobility"
+      ]
+    },
+    "severe": {
+      "description": "Pain radiating into glutes or legs, pain at rest",
+      "can_run": false,
+      "can_run_note": "Do not run — possible nerve involvement",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Possible disc bulge or nerve root irritation",
+        "Significant lumbar muscle spasm limiting movement",
+        "Sciatica-like referral pattern needing proper diagnosis"
+      ],
+      "relief": [
+        "Complete rest from running and heavy lifting",
+        "See a physiotherapist or GP urgently if pain radiates below the knee",
+        "Gentle walking is fine — avoid sitting for long periods",
+        "Heat alternating with ice for muscle spasm"
+      ],
+      "prevention": [
+        "Do not return to running until pain-free with walking for 1 week",
+        "Structured core rehabilitation programme under physio guidance",
+        "Imaging if neurological symptoms present (numbness, tingling)"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Pain radiates down one or both legs",
+    "Numbness or tingling in legs or feet",
+    "Pain wakes you at night",
+    "No improvement after 1 week of rest"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "shin_splints",
+  "zone": "lower_leg",
+  "display_name": "Shin splints (MTSS)",
+  "subtitle": "Inner shin pain from overload",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 60,
+    "weekly_increase_threshold": 0.15,
+    "risk_note": "Highest risk when weekly mileage jumps over 15% in one week"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Tenderness along inner shin, eases during run",
+      "can_run": true,
+      "can_run_note": "Yes — soft surfaces only, reduce pace",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Bone stress response from repetitive impact on the tibia",
+        "Overstriding causing heavy heel strike",
+        "Sudden surface change or mileage increase"
+      ],
+      "relief": [
+        "Ice shin 3 times daily for 15 min",
+        "Compression sleeve during the day",
+        "Calf stretch against wall — 60s × 3 each leg",
+        "Switch to softer surfaces for 1–2 weeks"
+      ],
+      "prevention": [
+        "Eccentric calf raises on a step — 3 × 15 daily",
+        "Strict 10% mileage increase rule week-on-week",
+        "Replace shoes every 600–800 km",
+        "Land midfoot, not heel — shorten stride slightly"
+      ]
+    },
+    "moderate": {
+      "description": "Pain at the start and end of runs, tender to touch",
+      "can_run": "modified",
+      "can_run_note": "Run/walk only on grass — 3 days rest between sessions",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Periosteal inflammation along the tibia",
+        "Tibialis posterior muscle fatigue contributing to overload",
+        "Inadequate recovery between hard sessions"
+      ],
+      "relief": [
+        "Rest 3–5 days, switch to cycling or pool running",
+        "Ice massage with frozen paper cup along shin",
+        "Reduce weekly mileage by 50% on return",
+        "Consider compression socks for daily wear"
+      ],
+      "prevention": [
+        "Avoid back-to-back running days",
+        "Introduce strength work — tibialis raises and toe taps",
+        "Check foot strike pattern — video yourself running",
+        "Build mileage in 3-week cycles with a rest week every 4th"
+      ]
+    },
+    "severe": {
+      "description": "Pain with walking, shin tender to touch, possible swelling",
+      "can_run": false,
+      "can_run_note": "Stop all running — rule out stress fracture first",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Possible tibial stress fracture — needs imaging to rule out",
+        "Severe periosteal inflammation requiring proper rest",
+        "Bone remodelling unable to keep up with training load"
+      ],
+      "relief": [
+        "Complete rest from impact activity for 4–6 weeks",
+        "See a doctor — request X-ray or MRI to rule out fracture",
+        "Physiotherapy for load management and return plan",
+        "Pool running or cycling to maintain fitness"
+      ],
+      "prevention": [
+        "Never return to running through shin pain — it becomes a fracture",
+        "Structured return: walk → walk/run → easy run over 6 weeks",
+        "Address bone density if recurrent — calcium and vitamin D intake"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Pain with normal walking",
+    "A specific spot that is very tender to press (possible stress fracture)",
+    "No improvement after 1 week of rest"
+  ]
+}

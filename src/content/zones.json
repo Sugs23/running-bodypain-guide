@@ -1,0 +1,79 @@
+[
+  {
+    "id": "neck",
+    "label": "Neck & upper traps",
+    "level": 1,
+    "direct": true,
+    "meshNames": ["zone_neck"]
+  },
+  {
+    "id": "shoulder",
+    "label": "Shoulder",
+    "level": 1,
+    "direct": true,
+    "meshNames": ["zone_shoulder_left", "zone_shoulder_right"]
+  },
+  {
+    "id": "upper_back",
+    "label": "Upper back",
+    "level": 1,
+    "direct": true,
+    "meshNames": ["zone_upper_back"]
+  },
+  {
+    "id": "lower_back",
+    "label": "Lower back",
+    "level": 1,
+    "direct": true,
+    "meshNames": ["zone_lower_back"]
+  },
+  {
+    "id": "core",
+    "label": "Core & abs",
+    "level": 1,
+    "direct": true,
+    "meshNames": ["zone_core"]
+  },
+  {
+    "id": "hip",
+    "label": "Hip & glutes",
+    "level": 2,
+    "direct": false,
+    "meshNames": ["zone_hip_left", "zone_hip_right"]
+  },
+  {
+    "id": "thigh",
+    "label": "Thighs",
+    "level": 2,
+    "direct": false,
+    "meshNames": ["zone_thigh_left", "zone_thigh_right"]
+  },
+  {
+    "id": "knee",
+    "label": "Knee",
+    "level": 2,
+    "direct": false,
+    "meshNames": ["zone_knee_left", "zone_knee_right"]
+  },
+  {
+    "id": "lower_leg",
+    "label": "Lower leg & shin",
+    "level": 2,
+    "direct": false,
+    "meshNames": ["zone_lower_leg_left", "zone_lower_leg_right"]
+  },
+  {
+    "id": "ankle",
+    "label": "Ankle & achilles",
+    "level": 2,
+    "direct": false,
+    "meshNames": ["zone_ankle_left", "zone_ankle_right"]
+  },
+  {
+    "id": "foot",
+    "label": "Foot & toes",
+    "level": 2,
+    "direct": false,
+    "meshNames": ["zone_foot_left", "zone_foot_right"]
+  }
+]

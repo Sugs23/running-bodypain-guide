@@ -1,0 +1,84 @@
+{
+  "id": "tfl",
+  "zone": "thigh",
+  "display_name": "TFL / outer thigh",
+  "subtitle": "Tensor fasciae latae — often confused with IT band",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "long_run_km_threshold": 22,
+    "risk_note": "TFL tightness is the most common upstream driver of IT band issues"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Outer thigh tightness, feels like a tight band from hip to knee",
+      "can_run": true,
+      "can_run_note": "Yes — foam roll TFL before and after every run",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "TFL overuse compensating for weak glute medius",
+        "Hip internal rotation increasing TFL tension during stance phase",
+        "Sustained sitting in hip flexion shortening the TFL"
+      ],
+      "relief": [
+        "Foam roll outer quad and TFL — from hip crease downward",
+        "Cross-legged forward lean stretch targeting TFL",
+        "Side-lying hip abduction to activate the glute med instead",
+        "Heat on outer hip before runs"
+      ],
+      "prevention": [
+        "Glute medius strengthening to reduce TFL compensation",
+        "Hip alignment cues during running — avoid hip drop",
+        "Regular TFL mobility work as part of cool-down"
+      ]
+    },
+    "moderate": {
+      "description": "Persistent outer thigh pulling or aching during and after runs",
+      "can_run": "modified",
+      "can_run_note": "Reduce mileage by 30% — prioritise strengthening",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Chronic TFL overload with trigger points causing referred outer thigh pain",
+        "IT band tension building from persistent TFL tightness",
+        "Underlying hip weakness not being addressed"
+      ],
+      "relief": [
+        "Daily foam rolling and hip strengthening programme",
+        "Dry needling to TFL trigger points",
+        "Reduce mileage and prioritise 2 weeks of strength work"
+      ],
+      "prevention": [
+        "Address glute weakness as the root cause",
+        "Lateral band walks and clamshells 3× per week",
+        "Gait analysis to identify crossover running pattern"
+      ]
+    },
+    "severe": {
+      "description": "Outer thigh pain extending to knee, cannot run without pain",
+      "can_run": false,
+      "can_run_note": "Rest — TFL pain at this level typically means IT band is also affected",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Full IT band syndrome with TFL as the primary driver",
+        "Chronic trigger points requiring hands-on treatment",
+        "Underlying biomechanics fault"
+      ],
+      "relief": [
+        "Rest from running for 2 weeks",
+        "Physiotherapy for manual therapy and biomechanical assessment",
+        "Structured hip strengthening programme"
+      ],
+      "prevention": [
+        "Establish hip strength base before returning to mileage",
+        "Running form correction for hip drop pattern"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Pain extends to the outer knee",
+    "No improvement after 2 weeks of foam rolling and strengthening",
+    "Pain on both outer thighs simultaneously"
+  ]
+}

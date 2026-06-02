@@ -1,0 +1,86 @@
+{
+  "id": "adductor",
+  "zone": "thigh",
+  "display_name": "Groin / adductor",
+  "subtitle": "Inner thigh strain — less common but slow to heal",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 65,
+    "consecutive_days_threshold": 5,
+    "risk_note": "Adductor strain more common in trail runners and those doing lateral drills"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Inner thigh tightness or ache, particularly on uphill or wide stride",
+      "can_run": true,
+      "can_run_note": "Yes — avoid wide stride and lateral movements",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Adductor strain from lateral movement, wide stride, or trail running",
+        "Weak adductors unable to cope with running volume",
+        "Hip flexor tightness altering pelvis position and increasing adductor load"
+      ],
+      "relief": [
+        "Butterfly stretch sitting — soles together, lean forward gently 60s",
+        "Standing adductor stretch — wide stance, shift weight side to side",
+        "Foam roll inner thigh carefully",
+        "Ice inner thigh after activity"
+      ],
+      "prevention": [
+        "Adductor strengthening: Copenhagen plank progression",
+        "Avoid sudden lateral movement without warm-up",
+        "Pelvic stability work to reduce adductor compensatory load"
+      ]
+    },
+    "moderate": {
+      "description": "Groin pain during running, especially push-off phase",
+      "can_run": "modified",
+      "can_run_note": "Short flat runs only — stop if groin pain increases",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Adductor longus strain at or near its pubic attachment",
+        "Athletic pubalgia — chronic groin pain from pelvic instability",
+        "Hip joint pathology referring into the groin"
+      ],
+      "relief": [
+        "Rest from running 3–5 days",
+        "Isometric adductor squeeze with pillow between knees 45s × 5",
+        "Anti-inflammatory medication for acute strain",
+        "Reduce stride width and avoid cambered roads"
+      ],
+      "prevention": [
+        "Copenhagen plank series 3× per week",
+        "Core and pelvic stability exercises",
+        "Gradual return to trail running or lateral work"
+      ]
+    },
+    "severe": {
+      "description": "Acute groin pain, swelling, cannot adduct leg against resistance",
+      "can_run": false,
+      "can_run_note": "Do not run — adductor injuries can become chronic if rushed",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Grade 2 or 3 adductor strain requiring imaging",
+        "Pubic symphysis stress reaction in high mileage runners",
+        "Hip joint issue requiring differential diagnosis"
+      ],
+      "relief": [
+        "Complete rest from running and lower body loading",
+        "Physiotherapy assessment — differentiate from hip joint pathology",
+        "Imaging to grade injury and rule out pubic stress reaction"
+      ],
+      "prevention": [
+        "Full rehabilitation before return — adductor injuries recur if rushed",
+        "Copenhagen plank and single-leg stability as ongoing maintenance"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Pain in both groins simultaneously",
+    "Pain with coughing or sneezing",
+    "Groin pain at rest not linked to activity",
+    "No improvement after 1 week of rest"
+  ]
+}

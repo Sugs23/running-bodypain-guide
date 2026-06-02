@@ -1,0 +1,90 @@
+{
+  "id": "shoulder",
+  "zone": "shoulder",
+  "display_name": "Shoulder",
+  "subtitle": "Arm swing tension and rotator cuff fatigue",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 65,
+    "consecutive_days_threshold": 6,
+    "risk_note": "Shoulder fatigue accumulates on runs over 2 hours"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Aching or tension in the shoulder during or after long runs",
+      "can_run": true,
+      "can_run_note": "Yes — consciously relax arm swing every few km",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Arms crossing the midline during running creating rotational strain",
+        "Shoulder shrugging under fatigue at miles 12 and beyond",
+        "Rotator cuff fatigue from sustained arm swing effort"
+      ],
+      "relief": [
+        "Shoulder rolls and cross-body stretch immediately post-run",
+        "Massage trapezius and posterior shoulder with a ball against a wall",
+        "Heat pad on shoulder for 15 min",
+        "Rest from overhead lifting 24–48 hours after long runs"
+      ],
+      "prevention": [
+        "Arms should swing front-to-back, not across the body",
+        "Keep hands loose — imagine holding a crisp between your fingers",
+        "Elbows at approximately 90 degrees, not clenched",
+        "Shoulder mobility routine — 5 min before long runs"
+      ]
+    },
+    "moderate": {
+      "description": "Persistent ache, limited range of motion, painful overhead",
+      "can_run": "modified",
+      "can_run_note": "Run but avoid any overhead gym work until resolved",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Rotator cuff tendinopathy from repetitive low-load stress",
+        "Subacromial impingement from poor shoulder mechanics under fatigue",
+        "Pectoral tightness pulling the shoulder into internal rotation"
+      ],
+      "relief": [
+        "Pendulum swings — lean forward, let arm hang and circle gently",
+        "Doorway chest stretch 30s × 3 twice daily",
+        "Ibuprofen for acute inflammation",
+        "Ice after activity for 15 min"
+      ],
+      "prevention": [
+        "External rotation band work 3× per week",
+        "Strengthen lower trapezius and serratus anterior",
+        "Check running posture — avoid rounded upper back",
+        "Strengthen thoracic extension with foam roller"
+      ]
+    },
+    "severe": {
+      "description": "Sharp pain with any arm movement, unable to lift arm",
+      "can_run": false,
+      "can_run_note": "Do not run — arm swing will aggravate the injury",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Possible rotator cuff tear or significant tendon damage",
+        "Acute bursitis requiring anti-inflammatory treatment",
+        "Labral involvement needing imaging to assess"
+      ],
+      "relief": [
+        "Complete rest from all upper body loading",
+        "Physiotherapy assessment urgently",
+        "Imaging if no improvement after 2 weeks",
+        "Corticosteroid injection may be considered for bursitis"
+      ],
+      "prevention": [
+        "Full rotator cuff rehabilitation before returning to running",
+        "Gradual return to arm swing — start with arm in sling if needed",
+        "Address thoracic kyphosis as a contributing factor"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Unable to lift arm above shoulder height",
+    "Sharp catching pain with specific movements",
+    "Pain at night preventing sleep",
+    "No improvement after 2 weeks"
+  ]
+}

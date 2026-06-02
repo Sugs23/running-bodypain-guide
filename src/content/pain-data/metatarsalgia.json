@@ -1,0 +1,87 @@
+{
+  "id": "metatarsalgia",
+  "zone": "foot",
+  "display_name": "Metatarsalgia",
+  "subtitle": "Ball of foot pain — forefoot overload",
+  "strava_risk_triggers": {
+    "weekly_km_threshold": 55,
+    "long_run_km_threshold": 24,
+    "risk_note": "Common in forefoot runners and those transitioning to lower-drop shoes"
+  },
+  "severity_levels": {
+    "mild": {
+      "description": "Burning or aching under the ball of the foot during or after runs",
+      "can_run": true,
+      "can_run_note": "Yes — add forefoot cushioning and check shoe stack height",
+      "urgency_label": "Self-manage",
+      "urgency_color": "green",
+      "why": [
+        "Metatarsal heads absorbing excess load from forefoot running pattern",
+        "Thin midsole or low-drop shoe increasing forefoot pressure",
+        "Tight toe flexors limiting normal forefoot load distribution"
+      ],
+      "relief": [
+        "Metatarsal pad in shoe — placed behind the ball of the foot",
+        "Ice ball of foot for 15 min after runs",
+        "Toe spreads and foot doming exercises",
+        "Avoid barefoot walking on hard floors"
+      ],
+      "prevention": [
+        "Gradual transition to lower-drop or minimal shoes — minimum 12 weeks",
+        "Forefoot strength work: toe spreads, towel scrunches",
+        "Sufficient cushioning under the metatarsal heads for road running"
+      ]
+    },
+    "moderate": {
+      "description": "Persistent forefoot pain, tender to press on metatarsal heads",
+      "can_run": "modified",
+      "can_run_note": "Easy pace only with extra forefoot cushioning",
+      "urgency_label": "Monitor closely",
+      "urgency_color": "amber",
+      "why": [
+        "Stress reaction in one or more metatarsal shafts",
+        "Morton's neuroma — nerve thickening between the 3rd and 4th toes",
+        "Capsulitis of the lesser toe joints from chronic overload"
+      ],
+      "relief": [
+        "Metatarsal dome pad",
+        "Wider toe box shoe to reduce nerve compression",
+        "Reduce mileage by 40% for 2 weeks",
+        "Anti-inflammatory medication"
+      ],
+      "prevention": [
+        "Foot strengthening programme",
+        "Wide toe box footwear for daily wear",
+        "Assess running form — reduce forefoot strike intensity"
+      ]
+    },
+    "severe": {
+      "description": "Sharp forefoot pain, burning between toes, cannot run",
+      "can_run": false,
+      "can_run_note": "Do not run — possible metatarsal stress fracture or neuroma",
+      "urgency_label": "See a physio",
+      "urgency_color": "red",
+      "why": [
+        "Metatarsal stress fracture requiring imaging and offloading",
+        "Morton's neuroma requiring injection or surgical consultation",
+        "Severe capsulitis or plantar plate tear"
+      ],
+      "relief": [
+        "Complete rest and physiotherapy assessment",
+        "X-ray or MRI to rule out stress fracture",
+        "Corticosteroid injection for Morton's neuroma",
+        "Offloading boot if stress fracture confirmed"
+      ],
+      "prevention": [
+        "6–8 weeks non-weight-bearing or boot for stress fracture",
+        "Return gradually with metatarsal support"
+      ]
+    }
+  },
+  "see_physio_if": [
+    "Burning or electric sensation between the toes",
+    "Specific tender spot on one metatarsal shaft — possible stress fracture",
+    "Pain that does not improve with rest",
+    "Forefoot pain at rest"
+  ]
+}
