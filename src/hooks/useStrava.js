@@ -19,9 +19,7 @@ import {
 import { computeRiskScores } from '../utils/riskEngine'
 
 const CLIENT_ID    = 254701
-const REDIRECT_URI = import.meta.env.VITE_STRAVA_REDIRECT_URI
-               ?? 'http://localhost:3000/auth/callback'
-
+const REDIRECT_URI = 'https://bodypain-guide.vercel.app/auth/callback'
 const CACHE_TTL_MS      = 6 * 60 * 60 * 1000   // 6 hours
 const ACTIVITIES_DAYS   = 90
 const LONG_RUN_KM       = 15

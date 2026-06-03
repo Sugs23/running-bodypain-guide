@@ -44,6 +44,9 @@ export function StravaWidget() {
   const longRun   = riskScores._long_run_km ?? 0
   const increase  = riskScores._weekly_increase ?? 0
 
+  const dateFrom = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000)
+    .toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })
+
   return (
     <div style={{
       padding: '12px 14px',
@@ -52,7 +55,8 @@ export function StravaWidget() {
       background: '#0d1118',
       marginBottom: 16,
     }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
+      {/* Header */}
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 }}>
         <span style={{ fontSize: 11, color: '#FC4C02', fontWeight: 500 }}>● STRAVA</span>
         <button
           onClick={disconnect}
@@ -62,6 +66,12 @@ export function StravaWidget() {
         </button>
       </div>
 
+      {/* Date range */}
+      <div style={{ fontSize: 11, color: '#666', marginBottom: 10 }}>
+        {dateFrom} – today · 90 days
+      </div>
+
+      {/* 4 stat blocks */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8, marginBottom: 8 }}>
         {[
           { label: 'This week',  value: `${weeklyKm} km` },
@@ -81,6 +91,7 @@ export function StravaWidget() {
         ))}
       </div>
 
+      {/* Warning */}
       {increase > 15 && (
         <div style={{
           padding: '6px 10px',

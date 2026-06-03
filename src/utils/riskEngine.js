@@ -251,7 +251,7 @@ export function computeRiskScores(activities, athleteProfile) {
     neck:       risk1(norm(consecutive_days, T.consec_high)),
     shoulder:   risk1(norm(consecutive_days, T.consec_high)),
     upper_back: risk1(norm(consecutive_days, T.consec_high)),
-    core:       risk1(norm(weekly_increase, T.increase_high)),
+    core: risk1(norm(consecutive_days, T.consec_high) * normSuffer(suffer_trend, T.suffer_trend_high)),
   }
 
   // ── Summary metrics (prefixed _ for UI use) ──────────────────────────────────
