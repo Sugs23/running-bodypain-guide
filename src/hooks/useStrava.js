@@ -16,7 +16,7 @@ import {
   transformActivityStreams,
   transformGear,
 } from './stravaTransform'
-import { computeRiskScores } from '../utils/riskEngine'
+import { computeRiskScores, parseActivitySymptoms } from '../utils/riskEngine'
 
 const CLIENT_ID    = 254701
 const REDIRECT_URI = 'https://bodypain-guide.vercel.app/auth/callback'
@@ -24,6 +24,11 @@ const CACHE_TTL_MS      = 6 * 60 * 60 * 1000   // 6 hours
 const ACTIVITIES_DAYS   = 90
 const LONG_RUN_KM       = 15
 const STREAM_KEYS       = 'heartrate,cadence,altitude,grade_smooth,velocity_smooth,distance'
+
+// ── Age override ──────────────────────────────────────────────────────────────
+// Strava API doesn't expose DOB. Set this to your age.
+// When friends use the app, this is the field to personalise per user.
+const ATHLETE_AGE = 23
 
 export function useStrava() {
   const {
@@ -72,12 +77,16 @@ export function useStrava() {
     const cached = loadCache()
     if (cached) {
       setActivities(cached.activities)
-      const scores = computeRiskScores(cached.activities, cached.athleteProfile)
-      setRiskScores({ ...scores, _athleteProfile: cached.athleteProfile })
+      // Patch age in at read time — cache may predate the age field being added
+      const athleteProfile = { ...cached.athleteProfile, age: ATHLETE_AGE }
+      const symptoms       = parseActivitySymptoms(cached.activities)
+      const scores         = computeRiskScores(cached.activities, athleteProfile, symptoms)
+      setRiskScores({ ...scores, _athleteProfile: athleteProfile })
     } else {
       fetchAllData(token)
     }
   }
+
   function disconnect() {
     sessionStorage.removeItem('strava_token')
     clearCache()
@@ -86,52 +95,57 @@ export function useStrava() {
 
   // ── Main data fetch ───────────────────────────────────────────────────────
 
-async function fetchAllData(token) {
-  const t = token || stravaToken
-  if (!t) return
+  async function fetchAllData(token) {
+    const t = token || stravaToken
+    if (!t) return
 
-  try {
-    // First get athlete profile to get the ID
-    const athleteRes = await stravaGet('/athlete', t)
-    const athleteId  = athleteRes.id
+    try {
+      // First get athlete profile to get the ID
+      const athleteRes = await stravaGet('/athlete', t)
+      const athleteId  = athleteRes.id
 
-    // Then fetch the rest in parallel
-    const [zonesRes, statsRes, activitiesRaw] = await Promise.all([
-      stravaGet('/athlete/zones', t).catch(() => null),
-      stravaGet(`/athletes/${athleteId}/stats`, t).catch(() => null),
-      fetchActivities(t),
-    ])
+      // Then fetch the rest in parallel
+      const [zonesRes, statsRes, activitiesRaw] = await Promise.all([
+        stravaGet('/athlete/zones', t).catch(() => null),
+        stravaGet(`/athletes/${athleteId}/stats`, t).catch(() => null),
+        fetchActivities(t),
+      ])
 
-    const athleteProfile = transformAthleteProfile(athleteRes, statsRes, zonesRes)
-    const activities     = transformStravaActivities(activitiesRaw)
+      // age injected here — Strava doesn't provide DOB via API
+      const athleteProfile = {
+        ...transformAthleteProfile(athleteRes, statsRes, zonesRes),
+        age: ATHLETE_AGE,
+      }
+      const activities = transformStravaActivities(activitiesRaw)
 
-    // Fetch gear
-    const gearMap = await fetchGear(activities, t)
+      // Fetch gear
+      const gearMap = await fetchGear(activities, t)
 
-    // Fetch streams for long runs
-    const streams = await fetchLongRunStreams(activities, t)
+      // Fetch streams for long runs
+      const streams = await fetchLongRunStreams(activities, t)
 
-    // Enrich activities
-    const enriched = activities.map(a => ({
-      ...a,
-      streams: streams[a.id] ?? null,
-      gear:    gearMap[a.gear_id] ?? null,
-    }))
+      // Enrich activities
+      const enriched = activities.map(a => ({
+        ...a,
+        streams: streams[a.id] ?? null,
+        gear:    gearMap[a.gear_id] ?? null,
+      }))
 
-    // Compute risk scores
-    const scores = computeRiskScores(enriched, athleteProfile)
+      // Parse symptoms from run titles/descriptions, then compute risk
+      const symptoms = parseActivitySymptoms(enriched)
+      const scores   = computeRiskScores(enriched, athleteProfile, symptoms)
 
-    // Save to store
-    setActivities(enriched)
-    setRiskScores({ ...scores, _athleteProfile: athleteProfile })
+      // Save to store
+      setActivities(enriched)
+      setRiskScores({ ...scores, _athleteProfile: athleteProfile })
 
-    // Cache
-    saveCache({ activities: enriched, athleteProfile })
+      // Cache
+      saveCache({ activities: enriched, athleteProfile })
 
-  } catch (err) {
-    console.error('Strava data fetch failed:', err)
+    } catch (err) {
+      console.error('Strava data fetch failed:', err)
+    }
   }
-}
 
   // ── Activity fetch (90 days) ──────────────────────────────────────────────
 

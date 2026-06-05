@@ -37,7 +37,7 @@ function ZoneMesh({ name, geometry, zoneId }) {
     : risk?.level === 'high'        ? '#E24B4A'
     : risk?.level === 'elevated'    ? '#EF9F27'
     : risk?.level === 'watch'       ? '#c9a050'
-    : '#1e2530'
+    : '#d1dcec'
 
   return (
     <mesh
@@ -61,7 +61,7 @@ function BaseMesh({ geometry }) {
   return (
     <mesh geometry={geometry}>
       <meshStandardMaterial
-        color="#1e2530"
+        color="#c1cde0"
         roughness={0.9}
         metalness={0.0}
       />
